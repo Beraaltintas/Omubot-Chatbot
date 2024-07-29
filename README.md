@@ -3,12 +3,9 @@ Omübot is a bert-based chatbot designed for the students of Ondokuz Mayıs Univ
 ## Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Model Training](#model-training)
 - [API Usage](#api-usage)
 - [Telegram Bot Integration](#telegram-bot-integration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -23,17 +20,25 @@ Install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
+## Model Training
 Train chatbot:
 ```bash
 python traniModel.py
 ```
+## API Usage
 To start the Flask-based API:
 ```bash
 python webApi.py
 ```
+To run model in local:
+```bash
+python runModelLocal.py
+```
+## Telegram Bot Integration
 To start the Telegram API:
 ```bash
 node telegramBot.js
 ```
+
 
 
