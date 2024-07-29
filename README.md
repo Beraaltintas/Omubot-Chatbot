@@ -17,7 +17,23 @@ Clone the project to your computer:
 ```bash
 git clone https://github.com/username/omubot.git
 cd omubot
-
+```
 Install the required Python packages:
+
+```bash
 pip install -r requirements.txt
+```
+Train chatbot:
+```bash
+python traniModel.py
+```
+To start the Flask-based API:
+```bash
+python webApi.py
+```
+To start the Telegram API:
+```bash
+node telegramBot.js
+```
+
 
