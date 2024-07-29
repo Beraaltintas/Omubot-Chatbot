@@ -3,3 +3,6 @@ output/
 logs/
 omubotonline/
 node_modules/
+.vs/
+.idea/
+_pycache_/
