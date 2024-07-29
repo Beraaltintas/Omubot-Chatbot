@@ -1,0 +1,24 @@
+{
+    "intents": [
+        {
+            "tag": "custom_tag",
+            "patterns": [
+                "fener şampiyon olucak mı"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "custom_tag",
+            "patterns": [
+                "fenerbahçe şampiyon olacak mı"
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": ""
+        }
+    ]
+}

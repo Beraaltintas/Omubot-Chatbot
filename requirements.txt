@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+sqlalchemy
+torch
+transformers
+pandas
+fuzzywuzzy
+Flask
+flask_cors
+scikit-learn
+nltk
+openpyxl

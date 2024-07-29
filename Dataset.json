@@ -1,0 +1,3729 @@
+{
+  "intents": [
+    {
+      "tag": "Selamlaşma",
+      "patterns": [
+        "Merhaba",
+        "Orada biri var mı?",
+        "Selam",
+        "İyi günler",
+        "Alo",
+        "??? ??? ??"
+      ],
+      "responses": [
+        "Merhaba!",
+        "Seni gördüğüme sevindim!",
+        "Merhaba,nasıl yardımcı olabilirim?"
+      ],
+      "context_set": ""
+    },
+    {
+        "tag": "Merhabalaşma",
+        "patterns": [
+          "Sa",
+          "Selamınaleyküm",
+          "Esselamun aleyküm"
+        
+        ],
+        "responses": [
+          "Aleykümselam"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Naberleşme",
+        "patterns": [
+          "nbr",
+          "naber",
+          "nasılsın",
+          "nasıl gidiyor",
+          "bugün nasılsın",
+          "hayat nasıl"
+        
+        ],
+        "responses": [
+          "İyiyim teşekkürler, sen nasılsın?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Nasılsınlaşma",
+        "patterns": [
+          "iii",
+          "iyi",
+          "bende iyi",
+          "iyilik benden de",
+          "hamdolsun",
+          "iyiyim"
+        
+        ],
+        "responses": [
+          "İyi olmanıza sevindim. Size nasıl yardımcı olabilirim?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Olumsuz",
+        "patterns": [
+          "iyi değilim",
+          "kötüyüm",
+          "kötü",
+          "çok kötü",
+          "bok gibiyim"
+        
+        ],
+        "responses": [
+          "Kötü olmana üzüldüm. Umarım en kısa sürede sıkıntılarını atlatabilirsin."
+        ],
+        "context_set": ""
+      },
+    {
+      "tag": "Vedalaşma",
+      "patterns": [
+        "sonra görüşürüz",
+        "görüşürüz",
+        "by by",
+        "sonra konuşuruz",
+        "Görüşürüz",
+        "Ben gidiyorum",
+        "Bye",
+        "İyi günler",
+        "Seninle sonra konuşuruz",
+        "gidiyorum",
+        "gitmem gerekiyor",
+        "gtg"
+      ],
+      "responses": [
+        "Gittiğin için üzüldüm :(",
+        "Sonra görüşürüz!",
+        "Görüşürüz!",
+        "En kısa zamanda tekrar görüşürüz"
+      ],
+      "context_set": ""
+    },
+    {
+        "tag": "Teşekkürleşme",
+        "patterns": [
+          "tşk",
+          "teşekkür ederim",
+          "sağol",
+          "eyvallah",
+          "eywallahh koçum",
+          "thank you",
+          "teşekkürler"
+        ],
+        "responses": [
+          "Rica ederim, işim bu :) "
+        ],
+        "context_set": ""
+      },
+    {
+      "tag": "Yaratıcı",
+      "patterns": [
+        "seni yapanların adı ne",
+        "geliştiricilerinin adı ne",
+        "tasarlayanların adı ne",
+        "yaratıcılarının adı ne",
+        "seni kim yarattı",
+        "geliştiricilerin kim",
+        "kim tarafından yapıldın",
+        "seni kim yaratı",
+        "seni yaratanlar kim",
+        "yaratıcıların kim",
+        "seni kim yaptı",
+        "seni kim tasarladı"
+      ],
+      "responses": [
+        "Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü öğrencileri Mustafa Bera Altıntaş,Emine Melike Cengiz,Oğuzhan Sezgin."
+      ],
+      "context_set": ""
+    },
+    
+    {
+      "tag": "İsim",
+      "patterns": [
+        "ismin ne ",
+        "adın ne",
+        "sana ne diyolar",
+        "adın nedir",
+        "sana ne diye seslenmeliyim",
+        "isminiz nedir?",
+        "sen nesin",
+        "kimsin",
+        "kimsiniz",
+        "neyle sohbet ediyorum ",
+        "kimle sohbet ediyorum şu an",
+        "nesin sen"
+      ],
+      "responses": [
+        "Ben Omubot senin için buradayım :))"
+      ],
+      "context_set": ""
+    },
+    {
+        "tag": "Yardımlaşma",
+        "patterns": [
+          "bana hangi konuda yardımcı olabilirsin",
+          "benim için ne yapabilirsin ",
+          "benim için naparsın",
+          "nasıl bi yardımın olabilir",
+          "hangi konularda bana yardımcı olabilirsin"
+        ],
+        "responses": [
+          "Amacım öğrencilerin üniversite hakkında sorduğu sorulara cevap verebilmek."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Film",
+        "patterns": [
+            "Son olarak hangi filmi seyrettin?",
+            "Son izlediğin film nedir?",
+            "Yakın zamanda hangi filmi izledin?",
+            "En son hangi filmi izledin?"
+        ],
+        "responses": [
+            "En son Kehanet filmini izledim."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "ÖğleArası",
+        "patterns": [
+            "öğle arası ne zaman başlıyor?",
+            "Öğle arası hangi saatler arasında?",
+            "Öğle arası kaç saat sürüyor ?",
+            "Öğrenci işlerinin öğle arası ne zaman?",
+            "öğle arası ne zaman",
+            "okul öğle arasına ne zaman giriyor"
+        ],
+        "responses": [
+            "12.00 - 13.00 saatleri arası üniversite genelinde öğle arası olmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Forma",
+        "patterns": [
+            "Okulun üniforması var mı?",
+            "okula ait bir forma var mı",
+            "okul forması zorunluluğu var mı",
+            "forma zorunluluğu geldi mi"
+        ],
+        "responses": [
+            "Okulumuzda öğrencilere üniforma giyme zorunluluğu yoktur. Öğrencilerimiz günlük kıyafetlerini tercih edebilirler."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "EnÇokTercih",
+        "patterns": [
+            "Üniversitelerde en çok tercih edilen bölüm nedir?",
+            "En popüler bölüm hangisi?",
+            "En çok hangi bölüm tercih ediliyor?",
+            "en çok seçilen bölüm hangisi",
+            "Okulda hangi bölümler popüler?"
+        ],
+        "responses": [
+            "Üniversitemizde Tıp, Diş Hekimliği, Mühendislik ve Eğitim fakültelerine yoğun ilgi bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "ŞikayetKutusu",
+        "patterns": [
+            "Okulda şikayet kutusu var mı ",
+            "şikayet kutusu nerde",
+            "şikayet kutusu her bölümde var mı"
+        ],
+        "responses": [
+            "Tüm fakültelerde şiyaketlerinizi iletebileceğiniz bir şikayet kutusu bulunmaktadır"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Açılış",
+        "patterns": [
+           "Okul açılış saati nedir?",
+            "Fakülte kapıları kaçta kapanıyor?",
+            "Okul saat kaçta açılıyor?",
+            "omü 24 saat boyunca açık kalıyor mu",
+            "üniversite 24 saat açık mı",
+            "okul sabah saat kaçta açılıyor",
+            "üniversite akşam saat kaça kadar açık?",
+            "Fakülteler saat kaçta kapanıyor ?",
+            "okul kaçta açılıyor"
+        ],
+        "responses": [
+            "Samsun Valiliğinin aldığı karar ile üniversitemizin mesai saatleri 08.00-17.00 olarak belirlenmiştir"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Ecza",
+        "patterns": [
+            "Fakültelerde ecza dolabı bulunuyor mu?",
+            "okulda ecza dolabı var mı"
+        ],
+        "responses": [
+            "Fakültelerimizde ecza dolapları bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "TıpDiş",
+        "patterns": [
+            "Üniversite Diş hastanesine girebilir miyim",
+            "Öğrenci olmayan kişiler tıp fakültesi hastanesine girebilir mi",
+            "Tıp fakültesi hastanesinden herkes yararlanabiliyor mu"
+        ],
+        "responses": [
+            "Evet. Üniversitenin Tıp ve Diş klinikleri herkese açıktır."
+        ],
+        "context_set": ""
+    },
+
+    {
+        "tag": "SağlıkHizmeti",
+        "patterns": [
+            "Üniversitenin sağlık hizmetleri nelerdir?",
+            "Üniversitede sağlık hizmeti var mı"
+        ],
+        "responses": [
+           "Üniversitemiz, herkese sağlık hizmetlerini sunmaktadır. Sağlık merkezi, poliklinikler ve acil durum hizmetlerimiz bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "AKTSnedir",
+        "patterns": [
+            "AKTS Kredi Sistemi Nedir?",
+            "akts nedir",
+            "AKTS ne işe yarar"
+        ],
+        "responses": [
+           "AKTS kredisi, ders ünitelerini tamamlamak için gerekli öğrenci iş yükünü gösteren (1 ile 60 arasında) sayısal bir değerdir. Bu değer, bir kurumdaki yıllık akademik çalışma içerisinde her bir dersin gerektirdiği iş yükünü gösterir. Bu iş yükü içerisine bir akademik yılda ders kapsamındaki pratik çalışmalar, seminerler, alan çalışmaları, bireysel çalışmalar, sınavlar gibi çalışmalar da girer."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "AKTSHesap",
+        "patterns": [
+           "Bir dersin AKTS Kredisi değeri nasıl hesaplanır?",
+            "AKTS neye göre hesaplanır"
+        ],
+        "responses": [
+  "AKTS değeri, o dersin iş yükünün hesaplanması ile oluşur. Örneğin 2 kredilik bir ders için AKTS değerini hesaplamaya çalışalım. 2 saatlik olan ve 14 haftalık ders için; 28 saatlik derse katılım, 1 saat vize, 1 saat final sınavı, 6 saat sınava hazırlık, 14 saat ise ders ve ödev olarak düşünüldüğünde öğrenciye 50 saatlik iş yükü yüklemektedir. 50 saatlik iş yükü de 2 AKTS’lik değer oluşturmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "MezunŞartları",
+        "patterns": [
+            "Üniversiteyi bitirme şartı nedir ?",
+            "mezun olma şartları nelerdir",
+            "Mezun olabilme koşulları nelerdir?",
+            "Üniversite nasıl biter",
+            "Üniversiteden nasıl mezun olurum",
+            "Üniversitemizden mezun olabilmek için kaç AKTS krediyi kamamlamam gerekmektedir?",
+            "mezuniyet şartı nedir?",
+            "Mezun olma AKTS si kaç",
+            "Kaç AKTS aldıktan sonra üniversiteyi bitirebilirim"
+        ],
+        "responses": [
+        "Kayıtlı olduğunuz öğretim programının ders, uygulama, staj gibi tüm gereklerini OMU Eğitim Öğretim ve Sınav Yönetmeliği hükümlerine göre başarıyla tamamlamanız ve GANO’nuzun 2,00 veya daha yüksek olması halinde diploma almaya hak kazanırsınız."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "DiplomaEki",
+        "patterns": [
+            "Diploma eki nedir?"
+        ],
+        "responses": [
+          "Diploma Eki (Diploma Supplement: DS), uluslararası saydamlığı pekiştirmeyi hedefleyen ve elde edilmiş yeti ve becerilerin ifade edildiği diploma, derece, sertifika gibi belgelerin, akademik ve meslekî tanınmasını sağlamaya yönelik, bir yükseköğretim diplomasına ek olarak verilen belgedir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "DiplomaEkiGerek",
+        "patterns": [
+          "Diploma eki neden gereklidir?"
+        ],
+        "responses": [
+            "Orijinal diploma ve diğer belgeler kendi başlarına yeterli açıklayıcı bilgi arz etmediklerinden dolayı, ayrıntılı ek açıklama tedarik etmeden bir diplomanın düzey ve işlevini kabul ettirmek son derece güç bir hal almıştır. Bu yüzden diploma eki gereklidir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "DiplomaEkiAvrupa",
+        "patterns": [
+            "Diploma ekinin Avrupa’daki tanınırlığı nedir?"
+
+        ],
+        "responses": [
+             "Ulusal kurumlar tarafından, Avrupa Komisyonu, Avrupa Konseyi ve UNESCO tarafından ortaklaşa hazırlanmış bir şablona göre düzenlenir. Bu üç kurumun organize ettiği bir ortak kurul tarafından denenmiş ve geliştirilmiş olan bu şablon, Avrupa Birliğinin tüm resmî dillerinde düzenlenmiştir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "DiploaEkiTrans",
+        "patterns": [
+            "Diploma eki transtrkip olarak sayılır mı",
+            "Diploma ekini transkript yerine kullanabilir miyim"
+        ],
+        "responses": [
+          "Hayır, Diploma eki transkript (not çizelgesi) veya diploma yerine geçmez."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "UluslararasıOgrenciKosul",
+        "patterns": [
+            "Uluslararası öğrencilerin üniversitenize kabulü nasıl gerçekleşir?",
+            "Uluslararası öğrencilerin üniversitemize Giriş koşulları nelerdir?",
+            "Yabancı öğrenciler nasıl üniversitemize kayıt olabilir ?"
+        ],
+        "responses": [
+             "İnternet sayfamızda 19 Mayıs Üniversitesi Önlisans ve Lisans Düzeyinde Ondokuz Mayıs Üniversitesi Uluslararası Öğrenci Başvuru Ve Kayıt Kabul Yönergesi’nde yer alan koşulları sağlayan öğrencilerin başvuruları değerlendirmeye alınır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "TürkçeOgrenmek",
+        "patterns": [
+            "Türkçe bilmiyorum. Bu konuda nasıl yardımcı olabilirsiniz?",
+            "Üniveristede Türkçe öğrenebilir miyim ",
+            "Yabancı öğrenciler türkçeyi nereden ve nasıl öğrenebilir ?"
+        ],
+        "responses": [
+                "Üniversitemizin Türkçe Düzeyi C1 olan diploma düzeyidir. Türkçe bilmeyen ya da dil muafiyet sınavlarında başarılı olamayan öğrencilerimiz, Üniversitemiz Türkçe Öğretimi Uygulama ve Araştırma Merkezine ya da farklı bir Türkçe Eğitim Merkezine yönlendirilmektedirler. Diploma Düzeyi Seviyesine ulaştıktan sonra kayıtlı oldukları programda akademik eğitimlerine devam edebilirler. Ayrıntılı bilgi için: http://omuturkce.omu.edu.tr/"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "TranskriptAlmak",
+        "patterns": [
+            "Transkriptimi nasıl alabilirim?",
+            "Transkript çıkarma",
+            "Transkript belgemi nasıl alabilirim?"
+        ],
+        "responses": [
+         "Öğrenimine devam eden öğrencilerimiz transkript belgelerini bölüm/program sekreterliklerine şahsen başvurarak alabilmektedirler. Mezun olan öğrencilerimiz Öğrenci İşleri Daire Başkanlığı diploma birimine şahsen müracaat ederek alabilir, kendisi gelip alamıyor ise bir dilekçe ile adresine gönderilmesini isteyebilir. Transkript belgesinin 1 (bir) adedi ücretsizdir"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "SağlıkHizmeti",
+        "patterns": [
+           "Transkript nedir?",
+           "Transkript ne",
+           "transkript nedir açıkla"
+        ],
+        "responses": [
+         "Transkript, bir öğrencinin üniversite eğitimi süresince aldığı derslerin, bu derslerden aldığı notların ve diğer akademik bilgilerin resmi bir belgesidir. Öğrencinin üniversitede kayıtlı olduğu dönem boyunca geçirdiği her bir dersin, dersin adı, alındığı dönem, alınan not ve not sistemi gibi bilgileri içerir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "DiplomaAlmak",
+        "patterns": [
+            "Mezunlar diplomasını nasıl alır",
+            "Yeni mezun oldum. Diplomamı ne zaman alabilirim?",
+            "Diplomamı nereden alacağım ?"
+        ],
+        "responses": [
+           "Dönem sonlarında WEB sitemizde ilan edilen takvimde belirtilen tarihlerden itibaren öğrenci kimlik kartı ve nüfus cüzdanı ile birlikte Öğrenci İşleri Daire Başkanlığı Diploma Birimine müracaat edilerek diplomalar alınabilmektedir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "ÖzelÖğrenciOl",
+        "patterns": [
+            "Nasıl üniversitenizde özel öğrenci olabilirim ?",
+            "Özel öğrenci başvurusunu nereye yapmalıyım",
+            "Özel öğrenci olarak nasıl başvuru yapabilirim?"
+        ],
+        "responses": [
+       "Üniversitemiz Özel Öğrenci Yönergesi'nde istenen belgelerle ilgili Fakülte/Yüksekokula dilekçe ile başvuru yapmanız gerekir."
+        ],
+        "context_set": ""
+    },
+
+
+    {
+        "tag": "YatayGeçişYap",
+        "patterns": [
+           "Yatay geçiş başvuru tarihlerini nasıl öğrenebilirim?",
+            "Yatay geçiş nasıl yapabilirim ? "
+        ],
+        "responses": [
+            "Üniversitemiz ve Daire Başkanlığımız internet sayfalarında yayınlanan duyuruda yatay geçiş başvuru ve değerlendirme takvimi yayınlanmaktadır. Duyuru sayfasına ulaşmak için https://oidb.omu.edu.tr/tr/ogrenci/yatay-gecis adresini ziyaret edin."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "YatayGeçişTür",
+        "patterns": [
+            "Yatay geçiş türleri nelerdir? Hangi türde başvuru yapabilirim?"
+        ],
+        "responses": [
+        "Kurum içi yatay geçiş: Üniversitemiz öğrencilerinin aynı düzeydeki diğer diploma programlarına geçiş türüdür. Sadece Üniversitemiz öğrencileri başvurabilir. Kurumlar arası yatay geçiş: Bir üniversite, yüksek teknoloji enstitüsü veya vakıflar tarafından bir üniversiteye bağlı olmaksızın kurulan meslek yüksekokullarından Ondokuz Mayıs Üniversitesindeki eşdeğer eğitim veren fakülte, yüksekokul veya bölüme yapılan geçiş türüdür. Farklı kurumlarda öğrenim gören öğrenciler başvuru yapabilir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "YatayGeçişKoşul",
+        "patterns": [
+            "Yatay geçiş için gerekli başarı şartları nelerdir?",
+            "Hangi şartlarda yatay geçiş yapabilirim ? ",
+            "Yatay geçiş koşulları nelerdir? ",
+            "Yatay geçiş için gereknler nedir",
+            "Yatay geçiş yapabilme koşulu nedir ? "
+        ],
+        "responses": [
+           "Kurumlararası yatay geçiş başvurusu yapabilmek için öğrencinin kayıtlı olduğu programda bitirmiş olduğu dönemlere ait genel not ortalamasının; önlisans programları için 100 üzerinden en az 60 veya 4 üzerinden en az 2.00; lisans programları için 100 üzerinden en az 70 veya 4 üzerinden en az 2.50, Tıp Fakültesi öğrencileri için ise 100 üzerinden en az 70 veya 4 üzerinden en az 2,91 olması gerekmektedir. Ortalama şartını sağlayan öğrencilerin başarısız dersleri olması başvurularının değerlendirilmesine engel değildir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "ÇokluYatayGeçiş",
+        "patterns": [
+            "Birden fazla üniversiteye yatay geçiş başvurusu yapabilir miyim?"
+        ],
+        "responses": [
+           "Farklı üniversitelere yatay geçiş başvurusu yapabilirsiniz. Birden çok yere kayıt hakkı kazanmanız durumunda, öğrenim görmek istediğiniz üniversiteye kaydınızı yaptırarak eğitiminize devam edebilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "YatayGeçişUyruklu",
+        "patterns": [
+            "Yatay geçişle yabancı uyruklu öğrenci alıyor musunuz?"
+        ],
+        "responses": [
+          "Kontenjan tablosunda yabancı uyruklu öğrenci kontenjanı bulunan programlara yatay geçiş başvurusu yapabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "KatkıPayıÜcret",
+        "patterns": [
+            "Kayıtlı olduğum programı uzatmam durumunda katkı payını öder miyim?"
+        ],
+        "responses": [
+            "Evet. Program süresini aşmanız durumunda ilgili dönem katkı payı ücreti ödenir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Harçİade",
+        "patterns": [
+        "Öğrenci harç iademi nasıl alabilirim?",
+        "Harç iadesi nasıl alınır",
+        "Harcımın iadesini almak istiyorum"
+        ],
+        "responses": [
+    "İade gerekçenizi belirtir bir dilekçe ve kendi adınıza açılmış hesaba ait 26 haneli IBAN numaranızı belirtir banka çıktı görüntüsü ile Öğrenci İşleri Daire Başkanlığı harç bürosuna başvurmanız sonrasında, iade gerekçenizin haklı görülmesi halinde iade alabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "EngelliÜcret",
+        "patterns": [
+           "Üniversitenizde kayıtlı öğrenciyim. Engelli raporum bulunmaktadır. Öğrenim ücretinin ne kadarını yatırmalıyım?"
+        ],
+        "responses": [
+            "Engelli olduğunuza dair sağlık raporunun aslı ve bir dilekçe ile birlikte okulunuz öğrenci işlerine müracaat etmeniz durumunda, engel oranınız kadar öğrenim ücretinden indirim yapılacaktır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "KayıtSilme",
+        "patterns": [
+           "Üniversiteden kaydımı sildirmek için ne yapmam gerekir?",
+           "Öğrenci kaydı silmek",
+           "Okulla ilişiğimi kesmek istiyorum",
+           "öğrenci kaydım nasıl silinir"
+        ],
+        "responses": [
+            "Kendiniz tarafından doldurulacak ilişik kesme formunu, form üzerinde belirtilen merkezlerde onaylattıktan sonra öğrenci işleri daire başkanlığına vermeniz yeterli olacaktır. Kaydınızın silinmesi ile birlikte öğrencilik hakkınız sona erer."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Sporcuİzini",
+        "patterns": [
+            "Sportif faaliyet dolayısıyla maksimum ne kadar izinli sayılabilirim?",
+            "Sportif faaliyetler süresince izinli miyim?"
+        ],
+        "responses": [
+            "Üniversite tarafından görevlendirilmiş iseniz, görevli olduğunuz sürece izinli sayılırsınız. Ancak, izinli sayıldığınız süre de dahil, toplam devamsızlık süresi bir dersin o yarıyıldaki/yıldaki toplam saatinin % 50’sini aşamazsınız."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "KayıtDondurmaSüresi",
+        "patterns": [
+           "En fazla ne kadar süre kayıt dondurabilirim?",
+           "Kayıt dondurmanın sınırı var mı?",
+           "Kayıt dondurmak süreli mi?"
+        ],
+        "responses": [
+           "Bir defada iki yarıyıla kadar olmak üzere, öğrenim süresi boyunca en fazla dört yarıyıl/iki yıl kaydınızı dondurulabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "KayıtDondurmaŞartları",
+        "patterns": [
+            "Herhangi bir nedenle öğrenime ara vermek (kayıt dondurma) mümkün müdür?",
+            "Kaydımı nasıl dondurabilirim?"
+        ],
+        "responses": [
+     "Evet. Öğrencilere, kanıtlayacakları önemli nedenlerin veya eğitim öğretimlerine katkıda bulunacak Üniversite dışı burs, staj, araştırma ve benzeri imkânların ortaya çıkması halinde ilgili yönetim kurulu kararı kayıt dondurabilirler."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "OkulBaşlangıçTarihi",
+        "patterns": [
+            "Okul hangi tarihte başlıyor?",
+            "Okul ne zaman başlıyor",
+            "okul başlangıç tarihi"
+        ],
+        "responses": [
+         "Üniversite ile ilgili tarihler her yılın akademik takviminde yer almaktadır. Ayrıca okulun internet sitesinden de duyuruları takip edip öğrenebilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "EvKiraları",
+        "patterns": [
+     "Okul etrafındaki evlerin kiraları neden bu kadar pahalı",
+     "ev kiralarının fiyatı ne böyle",
+     "ev kiraları neden böyle?"
+        ],
+        "responses": [
+          "Evlerin çoğunluğu öğrenciler tarafından tutulduğu için okula yakın olması ve evlerin konumunun atakum olması dolayısıyla ev fiyatları pahalı durumda."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "AileHekimliği",
+        "patterns": [
+        "Okulda aile hekimliği var mı?",
+        "kampüste aile hekimliği var mı?"
+        ],
+        "responses": [
+    "Üniversite kampüs içinde aile hekimliği bulunmamaktadır."
+        ],
+        "context_set": ""
+    },
+
+
+
+    {
+        "tag": "BölümKampüsüm",
+        "patterns": [
+     "Bölümüm hangi kampüste?",
+     "okulum hangi kampüste"
+        ],
+        "responses": [
+      "Bölümünüzün hangi kampüste olduğunu öğrenmek için https://www.omu.edu.tr/ adresini ziyaret edebilir veya Öğrenci İşleri birimi ile iletişime geçebilirsiniz."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "TekerlekliGiriş",
+        "patterns": [
+              "Okulda tekerlekli sandalye için özel bir giriş var mı varsa hangi girişler?"
+        ],
+        "responses": [
+      "Üniversitemizdeki tüm binalarda tekerlekli sandalyeler için özel girişler bulunmaktadır."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "EngelliParkYeri",
+        "patterns": [
+               "Engelli park yerleri var mı",
+            "Otoparklarınızda yeteri kadar engelli park yeri var mı?"
+        ],
+        "responses": [
+      "Otoparklarımızda standartlara uygun olup, otopark kapasitesi oranına göre her 20 araçta 1 engelli araç park yeri vardır."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "DersProgrami",
+        "patterns": [
+            "Ders programlarını nereden bulurum",
+            "Bilgisayar mühendisliği için ders programını nereden bulabilirim ?"
+        ],
+        "responses": [
+            "Bilgisayar Mühendisliği bölümünün ders programını https://bil-muhendislik.omu.edu.tr/tr/egitim/ders-programlari adresinde bulabilirsiniz."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "DiplomaGeçerlilik",
+        "patterns": [
+                        "Ondokuz Mayıs Üniversitesi diploması hangi ülkelerde geçerli?",
+            "Burada aldığım diploma yurtdışında geçerli mi"
+
+        ],
+        "responses": [
+                "Mavi diploma belgesinin geçerli olduğu ülkeler şu şekildedir: İsveç, İtalya, Macaristan, Romanya, Çekya, Danimarka, Hırvatistan, Estonya, Letonya, Litvanya, Fransa, Almanya, Avusturya, Bulgaristan, Belçika, Malta, Polonya, Portekiz, Hollanda, İrlanda, İspanya, Lüksemburg, Finlandiya."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "UBYSSifre",
+        "patterns": [
+            "Ubys şifremi unuttum, ne yapmalıyım?",
+            "okul şifremi unuttum",
+            "Sistem giriş şifremi unuttuğum için sisteme giriş yapamıyorum. Ne yapmalıyım?"
+        ],
+        "responses": [
+           "Sitedeki şifremi unuttum kısmından eposta adresinizi girip gelen mail ile yeni bir şifre oluşturabilirsiniz."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "OkulMaili",
+        "patterns": [
+     "Okul mailimi nasıl öğrenebilirim?",
+     "okul mailim ne?"
+        ],
+        "responses": [
+            "Okul mailiniz genellikle ad.soyad@bölüm.omu.edu.tr şeklindedir. Örneğin arda.guler@bil.omu.edu.tr"
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "HazırlıkSınıfı",
+        "patterns": [
+            "Hazırlık sınıfına gitmek zorunda mıyım",
+            "Hazırlık zorunlu mu?"
+        ],
+        "responses": [
+                "Hazırlık sınıfı bazı bölümler için zorunlu iken bazı bölümler için zorunlu değildir. Bunun için bölümlerin programlarını incelemelisiniz. Bölümünüzde hazırlık sınıfı zorunlu değilse bile isteğe bağlı hazırlık sınıfınlarına başvuru yapabilirsiniz. Eğer zorunlu hazırlık sınıfını almak istemiyorsanız muafiyet sınavına girebilirsiniz. "
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "Amfi",
+        "patterns": [
+            "Mühendislik fakültesinde amfi var mı?",
+            "bilgisayar bölümü dersleri amfide işlenebiliyor mu",
+            "Fakültelerde amfi bulunuyor mu?"
+        ],
+        "responses": [
+            "Evet. Fakültelerdeki dersliklerimizde amfiler bulunmaktadır."
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "TuvaletLavobo",
+        "patterns": [
+            "fakültelerde lavabo bulunuyor mu",
+            "okulda Tuvalet var mı ?"
+        ],
+        "responses": [
+            "Tüm fakültelerimizde her katta biri erkek biri kadın olmak üzere iki adet tuvalet bulunmaktadır."
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "DanışmanlıkHizmeti",
+        "patterns": [
+    "Üniversitede öğrenci danışmanlık hizmetleri var mı?",
+    "okulda danışmanım var mı",
+    "okulda danışmanım olacak mı"
+        ],
+        "responses": [
+            "Evet, öğrencilere psikolojik ve akademik danışmanlık hizmetleri sunulmaktadır."
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "YarıZamanlıİş",
+        "patterns": [
+            "Üniversitede yarı zamanlı çalışma olanakları var mı?",
+                "okulda part time çalışabilir miyim",
+                "okulda part time iş imkanı var mı",
+                "okulda yarı zamanlı iş imkanı var mı"
+        ],
+        "responses": [
+            "Evet, üniversite öğrencilerine kampüs içinde yarı zamanlı çalışma olanakları sunmaktadır."
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "OkulaGitmek",
+        "patterns": [
+       "Okula gitmezsem olur mu?",
+       "okula gitmek zorunlu mu",
+       "okula gelmek istemiyorum"
+        ],
+        "responses": [
+                "Üniversitemizde %70 derslere devam zorunluluğu bulunmaktadır. Eğer bu zorunluluğu yerine getirmezseniz derslerden kalırsınız."
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "DersSüresi",
+        "patterns": [
+            "Dersler ne kadar sürüyor?",
+            "Dersler kaç saat?",
+            "Ders süreleri ne kadar?",
+            "Ders uzunlukları nedir?",
+            "Dersler kaç dakika?"
+        ],
+        "responses": [
+            "Üniversitede dersler genellikle 1 saat veya 2 saat sürerken, bazen daha uzun sürelerde olabilir. Ancak ders üniversitenin farklı bölümlerine göre değişiklik gösterebilir. Ders sürelerini öğrenmek için ilgili okulun veya dersin programını kontrol etmek en iyisidir."
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "FakülteListesi",
+        "patterns": [
+           "omüdeki fakülte listesi",
+            "Üniversite hangi fakülteleri barındırıyor ",
+            "okulda hangi fakülteler var",
+            "omu fakülteleri neler"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/akademik/fakulteler adresinden üniversitedeki fakülteler hakkında bilgi sahibi olabilirsiniz."
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "EtkinlikAz",
+        "patterns": [
+            "Kampüs içinde öğrenciye yönelik etkinlikler neden az?",
+            "omüde etkinlik neden az",
+            "omüde etkinlik neden yok"
+        ],
+        "responses": [
+               "Olası Nedenler; Kaynak Eksikliği, Organizasyon Eksiklikleri, İlgi ve Katılım Azlığı, Altyapı ve Mekan Sorunları. Fakat bunlardan hangisinin gerçek sebep olduğunu üniversite yetkililerine sormalısınız."
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "DersKayıtŞikayet",
+        "patterns": [
+            "Ders kayıtlarında neden sürekli hata çıkıyor?",
+            "Neden bunca yıldır tek bir ders seçimi bile sorunsuz tamamlanmadı ?",
+            "ders seçimleri neden sorunlu"
+        ],
+        "responses": [
+               "Ders kayıtları için kullanılan yazılım oldukça yeni ve bu süreçte bazı beklenmedik teknik sorunlar yaşanabiliyor. Düzeltilmesi için biraz zamana ihtiyacı olabilir."
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "Oyun",
+        "patterns": [
+        "Okulda oyun oynayabileceğim yerler var mı?",
+        "okulda eğlence merkezi var mı"
+        ],
+        "responses": [
+                "Yaşam Merkezinde, öğrencilerimizin eğlenip dinlenebilecekleri oyun alanları bulunmaktadır. Bu alanlarda çeşitli masa oyunları, video oyunları ve diğer eğlenceli aktiviteler için imkanlar sunulmaktadır."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "AğırlıklıNotOrtalaması",
+        "patterns": [
+            "Ağırlıklı not ortalaması nasıl alınır? ",
+            "Ağırlıklı not ortalaması nasıl hesaplanır? "
+
+        ],
+        "responses": [
+            "Her ders için dersin notunu o dersin kredisiyle çarptıktan sonra ortaya çıkan tüm değerlerin toplamının derslerin toplam kredi sayısına bölünmesi ile bulunan değer ağırlıklı not ortalamasıdır. Özetle ANO = ∑(Not×Kredi)/∑Kredi"
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "BaşarısızDers",
+        "patterns": [
+        "Dersten kalınca ne olur? ",
+        "dersen kaldım ne yapıcam",
+        "dersten kalınca tekrar mı alıyorum"
+        ],
+        "responses": [
+            "Derslerin tümünü başarı ile tamamlayamadığınız takdirde mezun olamayacağınız için kaldığınız dersi sonraki dönemlerde tekrar almak durumundasınız."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "MailŞifresiUnuttum",
+        "patterns": [
+        "Okul mailimin şifresini unuttum ne yapmalıyım?",
+        "Mail şifremi unuttum",
+        "Mail şifresi almak"
+        ],
+        "responses": [
+            "Mail hizmeti sağlayıcısının giriş sayfasında genellikle \"Şifremi Unuttum\" gibi bir seçenek bulunur. Bu seçeneğe tıklayarak şifre sıfırlama işlemini başlatabilirsiniz."
+        ],
+        "context_set": ""
+    }, 
+       {
+        "tag": "OkulKaydı",
+        "patterns": [
+            "Okul kaydımı nasıl tamamlarım",
+            "Üniversiteye nasıl kayıt olabilirim?",
+            "nereden okula kayıt olucam"
+        ],
+        "responses": [
+            "Yerleşen adaylar e-devlet şifreleri ile https://www.turkiye.gov.tr adresine giriş yaparak Yükseköğretim Kurulu Başkanlığı bölümünden kayıt işlemleri yapabileceklerdir."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "YabancıÖğrenciBaşvuru",
+        "patterns": [
+            "Yabancı öğrenciler için başvuru süreci nasıl işler",
+            "Yabancı öğrenci başvuru süreci"
+
+        ],
+        "responses": [
+            "Yabancı öğrenciler için başvuru süreci, üniversitenin uluslararası ofisi tarafından yürütülmektedir."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "YazOkulu",
+        "patterns": [
+        " Üniversitenin yaz okulu programı nedir?",
+        "Üniversitede yaz okulu programı var mı",
+        "Hangi dersler yaz okulunda açılacak",
+        "Yaz okulu hakkında bilgi alabilir miyim?"
+        ],
+        "responses": [
+            "Yaz okulu hakkındaki bütün belgeler ve duyuruları https://kariyer.omu.edu.tr/tr/haberler/yaz-okulunda-acilacak-dersler-ve-yaz-okulu-akademik-takvimi-hakkinda-duyuru adresinden bulabilirsiniz"
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "ÖğrenimÜcreti",
+        "patterns": [
+        "Öğrenim ücretlerini nasıl ödeyebilirim?",
+        "Öğrenim ücreti nasıl ödenir",
+        "Öğrenim ücreti nereden ödenir"
+        ],
+        "responses": [
+                "Öğrenim ücretlerini kredi kartı, banka havalesi veya üniversitenin belirlediği diğer ödeme yöntemleri ile ödeyebilirsiniz. Detaylı bilgi için öğrenci işleri web sayfasını inceleyebilirsiniz."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "AkademikTakvim",
+        "patterns": [
+        "Okulda aile hekimliği var mı?",
+        "kampüste aile hekimliği var mı?"
+        ],
+        "responses": [
+            "https://oidb.omu.edu.tr/tr/ogrenci/akademik-takvimler Adresinden dilediğiniz yılın akademik takvimini inceleyebilirsiniz"
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "KayıpEşya",
+        "patterns": [
+        "Kampüste kaybolan eşyalarımı nasıl bulabilirim?",
+        "Kayıp eşyamı nereden bulurum"
+        ],
+        "responses": [
+               "Kaybolan eşyalar için güvenlik ofisine başvurabilir veya kayıp eşya bürosunu ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "YüksekLisans",
+        "patterns": [
+            "Yüksek lisans nasıl yapılır",
+            "Yüksek lisans yapmak için ne yapmalıyım? ",
+            "Doktora nasıl yapılır"
+        ],
+        "responses": [
+                "https://lisansustu.omu.edu.tr/tr/degisken/ilk-kayit Adresinden lisans üstü başvuruları ile ilgili belgelere ulaşabilirsiniz"
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "NotlandırmaSistemi",
+        "patterns": [
+        "notlandırma sistemi nasıl",
+        "Notlandırma sistemi harf mi sayı mı",
+        "notlandırma sistemi nasıl işleniyor"
+        ],
+        "responses": [
+            "Üniversitemiz AA, AB, BB gibi harf notu sistemi kullanmaktadır."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "OnlineDers",
+        "patterns": [
+            "dersler online mı ",
+            "uzaktan eğitim ile mi ders veriliyor",
+            "online ders var mı"
+        ],
+        "responses": [
+                "Dersler yüzyüze yapılmaktadır fakat bazı olumsuz durumlarda öğretim görevlisi dersini uzaktan da yapabilmektedir."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "OmüSıralama",
+        "patterns": [
+            "OMÜ dünya çapında kaçıncı konumdadır?",
+            "Ondokuz Mayıs Üniversitesi dünya genelinde kaçıncı sırada?",
+            "OMÜ Avrupa'da kaçıncı sıradadır?",
+            "OMÜ dünya üniversiteler sıralamasında kaçıncı sırada?",
+            "Üniversiteler arasında dünyada hangi sıradayız?",
+            "Avrupada sıralama olarak kaçıncı üniversiteyiz?",
+            "Omünün yurt dışındaki derecesi nedir?",
+            "Üniversitemiz dünyada kaçıncı sırada?"
+        ],
+        "responses": [
+                "Ondokuz Mayıs Üniversitesi, dünyada 11 bin 989 üniversitenin değerlendirildiği sıralamada 2022 yılında 1617'nci sıradayken, 2023 yılında 173 basamak yükselerek 1444'üncü oldu. Avrupa kıtasında ise 6 bin üniversite arasında 544'üncü sırada yer aldı."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "OmüBaşarıları",
+        "patterns": [
+            "Sıralamada türkiyenin kaçıncı üniversitesiyiz?",
+            "Üniversitemizin ülkemizdeki sıralaması nedir?",
+            "omünün sıralaması kaç",
+            "omü ne kadar başarılı?",
+            "omünün akademik başarısı nedir?",
+            "OMÜ Türkiye sıralamasında hangi konumdadır?",
+            "OMÜ'nün akademik başarısı nasıl değerlendiriliyor?",
+            "Omünün başarıları nelerdir?",
+            "Ondokuz Mayıs Üniversitesi'nin akademik performansı hakkında bilgi verebilir misiniz?",
+            "OMÜ'nün akademik performansı nasıl?",
+            "Üniversitemiz Türkiyede kaçıncı sırada?"
+        ],
+        "responses": [
+                "Consejo Superior de Investigaciones Científicas'un (CSIC) oluşturduğu \"Webometrics Ranking of World Universities\" (Dünya Üniversitelerinin Webometrics Sıralaması) sonuçlarına göre ülkemizden 209 üniversitenin dâhil edildiği derecelendirme sisteminde, Ondokuz Mayıs Üniversitesi Türkiye'nin en başarılı 21'inci üniversitesi olurken, etki açısından ise en başarılı 18'inci üniversitesi seçildi."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "OmüArazi",
+        "patterns": [
+        "Kampüsümüz kaç dönümdür?",
+            "omü yüzölçümü nedir?",
+            "okul kaç kilometre kare?",
+            "Üniversitenin büyüklüğü ne kadar?",
+            "Okulun alanı ne kadar?",
+            "Okul kaç dönümdür?\n",
+            "Omü kampüsü kaç dönüm?"
+        ],
+        "responses": [
+        "Ana yerleşke olan Kurupelit Yerleşkesi 8800 dönümlük bir alana sahiptir."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "FakülteSayısı",
+        "patterns": [
+        "Üniversitedeki fakülte sayısı kaçtır?",
+            "Üniversitede kaç adet fakülte vardır?",
+            "Okulda kaç tane fakülte var",
+            "omüdeki bölüm sayısı nedir",
+            "Üniversitede mevcut olan bölüm sayısı kaçtır?",
+            "Üniversitede kaç adet bölüm vardır?",
+            "üniversitede kaç bölüm var?",
+            "Okulumuzda kaç bölüm bulunmaktadır? "
+        ],
+        "responses": [
+    "Üniversitemizde 20 fakültede toplam 86 bölüm bulunmaktadır"
+        ],
+        "context_set": ""
+    },   
+     {
+        "tag": "PersonelSayısı",
+        "patterns": [
+        "OMÜ'de profesör sayısı kaçtır?",
+            "okulda kaç profesör var?",
+            "Üniversitede toplam kaç profesör var?",
+            "Ondokuz Mayıs Üniversitesi'nde toplam kaç akademisyen bulunmaktadır?",
+            "OMÜ'de akademik personel sayısı kaçtır?",
+            "Üniversitede toplam kaç tane akademik personel var ?"
+        ],
+        "responses": [
+    "Ondokuz Mayıs Üniversitesinde 560 profesör toplam 2497 akademik personel bulunmaktadır."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "TübitakProje",
+        "patterns": [
+        "Ondokuz Mayıs Üniversitesi'nde kaç tane TÜBİTAK projesi mevcuttur?",
+            "TUBİTAK projesi sayısı",
+            "Üniversitede kaç tane Tubitak projesi var ?"
+        ],
+        "responses": [
+    "2023 Yılı verilerine göre üniversitemizde toplam 42 adet Tubitak projesi bulunmaktadır."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "AkademikPersonelDil",
+        "patterns": [
+        "Üniversitedeki akademik personelin yabancı dil istatistikleri nedir?",
+            "Akademik personelin yabancı dil bilgisi nasıl",
+            "Akademik Personelin Yabancı Dil İstatistikleri hakkında bilgi verir misin ?"
+        ],
+        "responses": [
+    "Üniversitemizde İngilizce yabancı dili bulunan 2059 akademisyen, Almanca dili bulunan 77 akademisyen, Fransızca dili bulunan 45 akademisyen, Arapça dili bulunan 42 akademisyen, Rusça dili bulunan 12 akademisyen, Farsça dili bulunan 6 akademisyen, İspanyolca dili bulunan 4 akademisyen ve İtalyanca dili bulunan 3 akademisyen vardır."
+        ],
+        "context_set": ""
+    },  
+      {
+        "tag": "ErkekOgrenciSayısı",
+        "patterns": [
+        "üniversitedeki erkek öğrenci sayısı kaçtır?",
+            "okulda kaç erkek öğrenci var?",
+            "Üniversitedeki erkek öğrenci popülasyonu ne kadar?",
+            "omü de kaç erkek öğrenci bulunuyor?"
+        ],
+        "responses": [
+    "Üniversitemizde Toplam 13327 erkek lisans öğrencisi bulunmaktadır."
+        ],
+        "context_set": ""
+    }, 
+    
+    {
+        "tag": "KızOgrenciSayısı",
+        "patterns": [
+            "Üniversitedeki kız öğrenci popülasyonu ne kadar?",
+            "omü de kaç kız öğrenci bulunuyor?",
+            "üniversitedeki kız öğrenci sayısı kaçtır?",
+            "okulda kaç kız öğrenci var?"
+        ],
+        "responses": [
+    "Üniversitemizde Toplam 13886 kız lisans öğrencisi bulunmaktadır."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "CinsiyetDağılımı",
+        "patterns": [
+        "omüde Öğrencilerin cinsiyet dağılımı",
+            "omüde kaç kız kaç erkek öğrenci var?",
+            "öğrencilerin cinsiyet istatistikleri nedir?",
+            "Üniversite öğrencilerinin cinsiyet istatistiklerini verir misin ?"
+        ],
+        "responses": [
+    "Üniversitemizde Toplam 13886 kız lisans öğrencisi ve 13327 erkek lisans öğrencisi bulunmaktadır. Bu verileri oranlarsak üniversitemizde %51 oranında kız öğrenci, %49 oranında erkek öğrenci bulunmaktadır."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "MühendislikÖğrenciSayısı",
+        "patterns": [
+        "Mühendislikte kaç öğrenci bulunuyor",
+            "Mühendislik fakültesinde kaç öğrenci var ?"
+        ],
+        "responses": [
+    "Mühendislik Fakültesinde lisans seviyesinde 3192 öğrenci bulunmaktadır."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "BilgisayarMühendislikÖğrenciSayısı",
+        "patterns": [
+        "Bilgisayar mühendisliği öğrenci sayısı kaçtır",
+            "üniveristede kaç bilgisayar mühendisliği öğrencisi var",
+            "Bilgisayar mühendisliği bölümünde kaç adet öğrenci bulunuyor ? "
+        ],
+        "responses": [
+    "Bilgisayar Mühendisliği Bölümünde lisans seviyesinde 519 öğrenci bulunmaktadır."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "ÜniversiteÖğrenciSayısı",
+        "patterns": [
+        "Üniversitemizde toplam kaç öğrenci bulunmaktadır?",
+            "Üniversitedeki mevcut öğrenci sayısı kaçtır?",
+            "omüde kaç öğrenci öğrenim görmektedir?",
+            "Okulun nüfusu nedir?",
+            "omü öğrenci sayısı",
+            "Üniversitede kaç öğrenci vardır?",
+            "Öğrenci sayısı kaçtır?"
+        ],
+        "responses": [
+    "Üniversitemize kayıtlı yaklaşık 53000 öğrenci bulunmaktadır."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "NeryeGirerim",
+        "patterns": [
+        "450 üniversite sınavı puanı ile hangi bölümlere girebilirim",
+            "mühendislik fakültelerinin taban puanları ne kadar?",
+            "mühendislik bölümleri taban puanları kaç?",
+            "bilgisayar mühendisliği hangi sıralama ile alıyor?",
+            "tıp bölümü hangi sıralama ile alıyor",
+            "bilgisayar mühendisliğine girebilmek için kaç puan gerekiyor",
+            "Omü bölümlerin taban puanları",
+            "kaç puanla bilgisayar mühendisi alınıyor",
+            "bilgisayar mühendisliği bölümü kaç puanla alıyor?"
+        ],
+        "responses": [
+    "https://yokatlas.yok.gov.tr/lisans-univ.php?u=1082 adresinden ilgili bölümü seçerek aradığınız bölüm hakkındaki tüm bilgilere ulaşabilirsiniz."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "BilgisayarBölümüÖğrenciKabul",
+        "patterns": [
+        "Bilgisayar bölümü her sene kaç yeni öğrenci kabul ediyor",
+            "Bilgisayar mühendisliği bölümü kaç kişi alıyor",
+            "Bilgisayar bölümü kontenjanı ne kadar?"
+        ],
+        "responses": [
+         "https://aday.omu.edu.tr/programlar.php adresinden üniversitemizdeki bölüm kontenjanlarını yıllara göre inceleyebilirsiniz."
+        ],
+        "context_set": ""
+    },
+
+
+    {
+        "tag": "YönetimKurulu",
+        "patterns": [
+            "Üniversite yönetim kurulu üyeleri kimlerdir?",
+            "omü yönetim kurulu",
+            "Yönetim kurulunda kimler var?"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/yonetim/yonetim-kurulu Adresinden yönetim kurulu kadrosu hakkında bilgi sahibi olabilirsiniz."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "BilgisayarMühHocaları",
+        "patterns": [
+            "Bilgisayar mühendisliği hocalarıı kimlerdir?",
+            "Bilgisayar bölümündeki akademisyenler",
+            "Bilgisayar mühendisliği akademisyen kadrosu",
+            "Bilgisayar Mühendisliği akademik personelleri kimlerdir?"
+        ],
+        "responses": [
+            "Bilgisayar Mühendisliği bölümünün akademik personelleri: Prof. Dr. Erdal Kılıç, Doç. Dr. Gökhan Kayhan, Dr. Öğr. Üyesi Erhan Ergün, Dr. Öğr. Üyesi Durmuş Özkan Şahin, Dr. Öğr. Üyesi Meryem Soysaldı Şahin, Dr. Öğr. Üyesi İsmail İşeri, Dr. Öğr. Üyesi Sercan Demirci, Dr. Öğr. Üyesi Recai Oktaş ve Dr. Öğr. Üyesi Oğuz Emre Kural'dır"
+        ],
+        "context_set": ""
+    },    {
+        "tag": "ErdalHoca",
+        "patterns": [
+            "Erdal hoca hakkında bilgi verebilir misiniz?",
+            "Erdal kılıç kimdir?",
+            "erdal hoca kimdir"
+        ],
+        "responses": [
+            "Prof. Dr. Erdal Kılıç, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Aynı zamanda Blgisayar Mühendisliği bölüm başkanlığını yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/ekilic sitesini ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "MeryemHoca",
+        "patterns": [
+            "Meryem hoca hakkında bilgi verebilir misiniz?",
+            "Meryem soysaldı şahin kimdir?"
+        ],
+        "responses": [
+            "Dr. Öğr. Üyesi Meryem Soysaldı Şahin, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/meryem.soysaldi  adresini ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "DurmuşHoca",
+        "patterns": [
+            "Durmuş hoca hakkında bilgi verebilir misiniz?",
+            "Durmuş özkan şahin kimdir?"
+        ],
+        "responses": [
+            "Dr. Öğr. Üyesi Durmuş Özkan Şahin, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/durmus.sahin adresini ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "ErhanHoca",
+        "patterns": [
+            "Erhan hoca hakkında bilgi verebilir misiniz?",
+            "Erhan ergün kimdir?"
+        ],
+        "responses": [
+            "Dr. Öğr. Üyesi Erhan Ergün Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Aynı zamanda Blgisayar Mühendisliği bölüm başkan yardımcılığı yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/erergun sitesini ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "İsmailHoca",
+        "patterns": [
+            "İsmail hoca hakkında bilgi verebilir misiniz?",
+            "İsmail işeri kimdir?"
+        ],
+        "responses": [
+            "Dr. Öğr. Üyesi İsmail İşeri, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Aynı zamanda Blgisayar Mühendisliği bölüm kurulunda yer almaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/ismail.iseri adresini ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "SercanHoca",
+        "patterns": [
+            "Sercan hoca hakkında bilgi verebilir misiniz?",
+            "Sercan demirci kimdir?"
+        ],
+        "responses": [
+            "Dr. Öğr. Üyesi Sercan Demirci, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/sercan.demirci adresini ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "RecaiHoca",
+        "patterns": [
+            "Recai hoca hakkında bilgi verebilir misiniz?",
+            "Recai oktaş kimdir?"
+        ],
+        "responses": [
+            "Dr. Öğr. Üyesi Recai Oktaş, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/roktas adresini ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "BilgisayarMühAsistanlar",
+        "patterns": [
+            "Bilgisayar mühendisliği asistanları kimlerdir?",
+            "Bilgisayar bölümü asistan kadrosu",
+            "Bilgisayar Bölümü asistanları kimlerdir",
+            "Bilgisayar mühendisliği bölümü araştırma görevlileri kimlerdir?"
+        ],
+        "responses": [
+            "Bilge Kağan Yazar, Gülcan Yıldız, İsmail Hakkı Turan, Kübra Seyhan, Nurullah Ateş, Varol Şahin ve Zinnet Duygu Akşehir Bilgisayar Mühendisliği bölümünde araştırma görevlisi olarak görev yapmaktadırlar."
+        ],
+        "context_set": ""
+    },       {
+        "tag": "BilgisayarMühBölümBaşkanYardımcısı",
+        "patterns": [
+            "Bilgisayar bölümünün başkan yardımcısı kimdir?",
+            "Bilgisayar mühendisliği bölüm başkan yardımcısı kimdir?"
+        ],
+        "responses": [
+            "Bilgisayar mühendisliği bölüm başkan yardımcısı Dr. Öğr. Üyesi Erhan ERGÜN'dür."
+        ],
+        "context_set": ""
+    },    {
+        "tag": "RektörKim",
+        "patterns": [
+            "Üniversite rektörünün adı nedir? ",
+            "omü rektörü ",
+            "prof Yavuz Ünal kimdir",
+            "Üniversite rektörü kimdir? "
+        ],
+        "responses": [
+            "Ondokuz Mayıs Üniversitesi rektörü Prof. Dr. Yavuz ÜNAL'dır."
+        ],
+        "context_set": ""
+    },       
+
+    {
+        "tag": "Filmleşme",
+        "patterns": [
+            "Hangi filmi en çok seviyorsun?",
+            "En beğendiğin film hangisi?",
+            "Favori filmin hangisi?",
+            "En sevdiğin film nedir?"
+        ],
+        "responses": [
+            "En sevdiğim film What happened to Monday."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "FilmTürü",
+        "patterns": [
+            "En çok hangi tür filmleri seversin?",
+            "Hangi türdeki filmleri izlemeyi tercih edersin?",
+            "Hangi film türlerini seversin?"
+        ],
+        "responses": [
+            "Daha çok bilim kurgu ve macera türünü severim."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Yönetmen",
+        "patterns": [
+            "Favori yönetmenin kimdir?",
+            "En sevdiğin yönetmen kimdir?"
+        ],
+        "responses": [
+            "En sevdiğim yönetmen Christopher Nolan."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Aktör",
+        "patterns": [
+            "En sevdiğin aktör hangisi?",
+            "Favori aktörün kimdir?"
+        ],
+        "responses": [
+            "En sevdiğim aktör Robert Downey Jr."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Performans",
+        "patterns": [
+            "En başarılı bulduğun oyunculuk performansı hangisi?",
+            "Hangi aktör veya aktrisin performansını beğenirsin?",
+            "en başarılı bulduğun performans hangisi"
+        ],
+        "responses": [
+            "Ali Atay'ın Leyla ile Mecnun dizisindeki Mecnun rolü performansını çok beğeniyorum."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Sahne",
+        "patterns": [
+            "Bir filmde seni en çok etkileyen sahne hangisiydi?",
+            "en çok etkilendiğin sahne"
+        ],
+        "responses": [
+            "Sanırım bu sorunun cevabı Recep İvedik'in burnu ile flüt çaldığı sahne."
+        ],
+        "context_set": ""
+    },
+   
+    {
+        "tag": "DilDersleri",
+        "patterns": [
+            "Seçmeli dil dersleri",
+            "üniversitede seçmeli ders olarak dil dersleri bulunuyor mu?",
+            "omüde hangi seçmeli dil dersleri var?",
+            "seçmeli olarak dil seçebilir miyim?"
+        ],
+        "responses": [
+            "Üniversitemizde sosyal seçmeli ders olarak Almanca, Arapça, Boşnakça, Farsça, Fransızca, İngilizce, İspanyolca, İtalyanca ve Rusça dersleri bulunmaktadır."
+        ]
+    },
+    {
+        "tag": "DilÖğrenmek",
+        "patterns": [
+            "Üniversitede dil öğrenebilir miyim",
+            "omüde hangi dilleri öğrenebilirim?",
+            "nasıl dil öğrenirim",
+            "dil öğrenmek için ne yapmalıyım"
+        ],
+        "responses": [
+            "Sosyal seçmeli dil derslerinden ve bazı ücretsiz online dil eğitimleri yardımı ile istediğiniz dili öğrenebilirsiniz. Üniversitemizde sosyal seçmeli ders olarak Almanca, Arapça, Boşnakça, Farsça, Fransızca, İngilizce, İspanyolca, İtalyanca ve Rusça dersleri bulunmaktadır."
+        ]
+    },
+    {
+        "tag": "ÖğrenciKimliği",
+        "patterns": [
+            "Öğrenci kimliğini almak için ne yapmam lazım",
+            "Öğrenci kartı nereden alınır?",
+            "Öğrenci kimliği nerden alınır",
+            "Öğrenci kartı almak için ne yapmalıyım",
+            "öğrenci kimliği",
+            "öğrenci kartı"
+        ],
+        "responses": [
+            "Kaydınız tamamlandıktan sonra bölüm genel sekreterliğinden öğrenci kartınızı alabilirsiniz."
+        ]
+    },
+    {
+        "tag": "KimlikKaybetme",
+        "patterns": [
+            "Öğrenci kimliğimi kaybettim",
+            "Öğrenci kartını kaybettim ne yapmalıyım?",
+            "öğrenci kimliğimi düşürdüm",
+            "öğrenci kartımı düşürdüm",
+            "öğrenci kimliğimi bbulamıyorum",
+            "öğrenci kartımı bulamıyorum"
+        ],
+        "responses": [
+            "Belli bir ücret karşılığında üniversitenin öğrenci işlerinden yeni bir kart çıkartabilirsiniz."
+        ]
+    },
+    {
+        "tag": "SeçmeliDersListe",
+        "patterns": [
+            "Sosyal seçmeli ders listesi",
+            "Sosyal seçmeli derslere nerden bakabilirim",
+            "seçmeli ders listesi"
+        ],
+        "responses": [
+            "Sosyal seçmeli dersler hakkında detaylı bilgi için https://oidb.omu.edu.tr/tr/haberler/sosyal-secmeli-dersler-birim-ve-derslik-bilgileri adresini ziyaret edebilirsiniz."
+        ]
+    },
+    {
+        "tag": "secmeliDersLimit",
+        "patterns": [
+            "Seçmeli ders limiti var mı",
+            "Bir dönemde kaç seçmeli ders alabilirim?",
+            "en fazla kaç semeli ders alabilirim"
+        ],
+        "responses": [
+            "Seçmeli dersler sosyal seçmeli ve teknik seçmeli dersler olarak ayrılmaktadır. Sosyal seçmeli olarak yalnızca bir ders alınabilirken, teknik seçmeli dersler bölümler arasında farklılık göstermektedir."
+        ]
+    },
+    {
+        "tag": "NotBilgisi",
+        "patterns": [
+            "Hangi not BA'ya karşılık geliyor",
+            "AA harf notu için kaç puan almam gerekiyor",
+            "En fazla kaç notum DC olabilir",
+            "harf notları nasıl belirlenir",
+            "harf notu neye göre belirleniyor"
+        ],
+        "responses": [
+            "https://cev-muhendislik.omu.edu.tr/tr/belgeler/yonergeler/ adresinden ilgili yönergeyi okuyup sorunuza cevap bulabilirsiniz."
+        ]
+    },
+    {
+        "tag": "DersKayıt",
+        "patterns": [
+            "Ders kayıt işlemlerini nereden gerçekleştireceğim",
+            "Ders seçimlerini nereden ve nasıl yapacağım?",
+            "Ders kayıtları nereden yapılıyor?",
+            "Ders kayıt işlemleri nasıl yapılır",
+            "Ders nasıl seçilir?"
+        ],
+        "responses": [
+            "Ders kayıt işlemleri https://ubys.omu.edu.tr/ adresi üzerinden yapılmaktadır. Sorun yaşadığınız taktirde danışman hocanızdan yardım alabilirsiniz."
+        ]
+    },
+    {
+        "tag": "ÇiftAnadal",
+        "patterns": [
+            "Çift anadal bölümlerine nereden bakarım",
+            "Çift ana dal yapabileceğimiz bölümler hangileri?",
+            "çift anadal nasıl yaparım"
+        ],
+        "responses": [
+            "https://oidb.omu.edu.tr/tr/haberler/2023-2024-cift-anadal-yandal-basvuru-duyurusu/2023-%C3%87%C4%B0FT%20ANADAL-KONTENJANLARI%20-%20%C4%B0lan.pdf adresindeki belgede 2023-2024 yılı için çift anadal yapabileceğiniz bölümler ve kontenjanları bulunmaktadır. Duyuruları takip ederek o yılın paylaşılan dökümanına erişebilirsiniz."
+        ]
+    },
+    {
+        "tag": "DersKaydıSorun",
+        "patterns": [
+            "Ders kaydı işlemlerinde sorun yaşıyorum, ne yapmam lazım?",
+            "Ders kaydı sırasında hata alıyorum.",
+            "Ders kaydını danışmana gönderemiyorum",
+            "ders kayıt aşamasında sorunlarım var ne yapmalıyım",
+            "Ders kaydı yapamıyorum, ne yapabilirim?",
+            "Ders kaydımda sorun yaşıyorum",
+            "Ders kaydı yapamıyorum.",
+            "ders seçerken sorun yaşıyorum",
+            "Ders seçimi yapamıyorum, ne yapmalıyım",
+            "ders seçimlerinde sorun yaşıyorum",
+            "ders se.imlerimi danışmana gönderemiyorum"
+        ],
+        "responses": [
+            "Ders kayıt sırasında sistemsel veya ders planlarının değişmesinden kaynaklı hatalar yaşanabilmektedir. Bu durumda danışmanınızla irtibata geçiniz. Fakat sorun çözülmeden ders kaydınızı tamamlamayınız."
+        ]
+    },
+    {
+        "tag": "DersSeçimSorun",
+        "patterns": [
+            "Ders seçim ekranında derslerimi göremiyorum ne yapmam lazım?",
+            "Ders seçimi sırasında dersler önüme gelmiyor.",
+            "Ders seçiminde derslerim sistemde gözükmüyor.",
+            "Ders seçiminde dersler çıkmıyor",
+            "Ders seçme ekranında alacağım dersler çıkmıyor ne yapmam gerekiyor?"
+        ],
+        "responses": [
+            "Ders planlarınıza bağlı olarak derslerinizin sistemde gözükmemesi dersin kaldırılmış olması, kodunun değişmiş olması, dersin açılmamış veya eksik açılmış olması nedeniyle olabilir. Bu durumda danışmanınızla irtibata geçiniz. Fakat sorun çözülmeden ders kaydınızı tamamlamayınız."
+        ]
+    },
+    {
+        "tag": "DersKaydıHususları",
+        "patterns": [
+            "Ders kayıt aşamasında en çok hangi hususlara dikkat etmem gerekir?",
+            "Ders seçerken nelere dikkat etmem gerekir",
+            "Ders seçimi hakkında bilgi verir misin",
+            "Derslere kayıt olurken nelere göre kaydolmam lazım?",
+            "ders kayıtlarımı nasıl yapıcam",
+            "ders seçimlerimi nasıl yapıcam"
+        ],
+        "responses": [
+            "Ders kaydında üç önemli hususa dikkat etmeniz gerekir. Eksik ders alarak dönem uzatmamak için her dönem başında müfredat durum kontrolü, akademik takvimde belirtilen süre içinde kaydın tamamlanması ve danışman onayı işlemidir."
+        ]
+    },
+    {
+        "tag": "DanışmanOnayı",
+        "patterns": [
+            "Danışman onay bittikten sonra yapmam gereken bir şey var mı?",
+            "Danışman onayına gönderdim, ne yapmam lazım",
+            "Seçtiğim dersleri danışmana gönderdim, onaylandı. Şimdi ne yapmalıyım?",
+            "Dersleri danışmana gönderdim napıyım"
+        ],
+        "responses": [
+            "Danışman onayı işlemi tamamlandıktan sonra, kayıtlanmış olduğunuz dersleri tek tek kontrol ediniz. Sizin danışman onayına göndermiş olduğunuz derslerden bir veya birkaçı danışmanınız tarafından listeden çıkartılmış olabilir."
+        ]
+    },
+    {
+        "tag": "NotYükseltme",
+        "patterns": [
+            "Bir dersi not yükseltmek için tekrarlayabilir miyim",
+            "Geçilen bir ders tekrar alınabilir mi",
+            "Geçtiğim dersi not yükseltmek için tekrar alabilir miyim",
+            "Dersi tekrar alarak notumu yükseltebilir miyim"
+        ],
+        "responses": [
+            "Hayır alamazsınız. Ondokuz Mayıs Üniversitesi not yükseltmek için ders tekrarına izin vermemektedir."
+        ]
+    },
+    {
+        "tag": "Sınavİtirazı",
+        "patterns": [
+            "Sınav itirazı nasıl yapılır",
+            "Sınav sonuçlarına nasıl itiraz edebilirim?",
+            "Ne zamana kadar sınav sonuçlarına itiraz edebilirim?",
+            "sonuçlara nasıl itiraz edebilirim"
+        ],
+        "responses": [
+            "Akademik takvimde belirtilen sınav not girişlerinin sisteme girilmesinin son gününden itibaren beş iş günü içerisinde ilgili birime (Bölüm Başkanlığına) dilekçe vererek itiraz edebilirsiniz."
+        ]
+    },
+    {
+        "tag": "Staj",
+        "patterns": [
+            "bölümümde kaç tane ve kaç gün staj yapmam gerekiyor",
+            "Staj yapmam gerekiyor mu",
+            "kaç tane staj var",
+            "bölümde kaç staj var",
+            "bölümde kaç staj yapılıyor",
+            "staj işlemleri nasıl oluyor",
+            "nasıl staj yapıcam"
+        ],
+        "responses": [
+            "Staj işlemleri bölümden bölüme değişiklik göstermektedir. Öğrenci işlerinden bölümünüze ait olan staj işlemleri ve süresine dair yönergeyi okuyabilirsiniz."
+        ]
+    },
+    {
+        "tag": "StajBulma",
+        "patterns": [
+            "staj için yeri nasıl bulabilirim",
+            "staj yapacak yer bulamıyorum",
+            "staj yerimi okul buluyor mu",
+            "okul staj yeri ayarlıyor mu",
+            "staj yeri nasıl bulabilirim"
+        ],
+        "responses": [
+            "Staj yeri bulma sorumluluğu öğrenciye aittir. Kendi imkânlarınızla bulamadığınız taktirde danışman hocanız veya bölümünüzdeki hocalardan yardım isteyebilirsiniz."
+        ]
+    },
+    {
+        "tag": "Transkript",
+        "patterns": [
+            "Transkript nasıl alınır",
+            "Transkript belgesi nereden alınır",
+            "Transkript almak için ne yapmalıyım",
+            "Transkriptimi nereden alabilirim",
+            "transkript belgesini nasıl alırım"
+        ],
+        "responses": [
+            "Transkript belgenizi https://ubys.omu.edu.tr/ adresinden alabilirsiniz."
+        ]
+    },
+    {
+        "tag": "ÖğrenciBelgesi",
+        "patterns": [
+            "Öğrenci belgesini nereden alabilirim",
+            "öğrenci belgesini nasıl alırım",
+            "öğrenci belgesi nereden alınır",
+            "öğrenci belgesi almak istiyorum",
+            "öğrenci belgesi nerden alınır"
+        ],
+        "responses": [
+            "Öğrenci belgesini https://ubys.omu.edu.tr/ adresinden alabilirsiniz."
+        ]
+    },
+ 
+    {
+        "tag": "TeknoparkKonum",
+        "patterns": [
+            "Üniversite teknoparkına nasıl gidebilirim",
+            "Teknopark nerede",
+            "Teknopark konum"
+                    ],
+         "responses": [
+            "https://www.samsunteknopark.com/iletisim adresinden teknoparkın konumu ile ilgili bilgi sahibi olabilirsiniz"
+                ]
+            },
+            {
+                "tag": "Teknopark",
+                "patterns": [
+                    "üniversitenin teknoparkı var mı",
+                    "Okulda teknopark bulunuyor mu?",
+                    "teknopark var mı"
+                ],
+                "responses": [
+                    "Üniversitemizde 1 adet teknopark bulunmaktadır. Detaylı bilgi için https://www.samsunteknopark.com/ adresini ziyaret edebilirsiniz."
+                ]
+            },
+            {
+                "tag": "Konaklama",
+                "patterns": [
+                    "öğrenciler için ne tür konaklama imkanları var",
+                    "üniversite yurtlarına nasıl başvururum",
+                    "Üniversitenin öğrenci yurduna başvuruyu nereden ve nasıl yapabilirim?",
+                    "Nerde kalabilirim",
+                    "nerde kalıcam",
+                    "nerde konaklayabilirim"
+                ],
+                "responses": [
+                    "Üniversitemizin yurtlarında barınmak isteyen öğrenciler, PP.4.7.FR.0097-Öğrenci Yurdu Konaklama Talep Dilekçesi doldurup eki belgeleriyle birlikte Sağlık Kültür ve Spor Daire Başkanlığına başvuru yapabilmektedirler."
+                ]
+            },
+            {
+                "tag": "YurtOda",
+                "patterns": [
+                    "Öğrenci Yurdunun odaları kaç kişilik?",
+                    "odalar kaç kişilik"
+                ],
+                "responses": [
+                    "Öğrenci yurtlarında tek, çift, üç ve dört kişilik odalarda barınma hizmeti verilmektedir."
+                ]
+            },
+            {
+                "tag": "OdaArkadaşı",
+                "patterns": [
+                    "Yurtta istediğim kişiyle aynı odayı paylaşabilir miyim",
+                    "Öğrenci Yurduna başvuru yaparken oda arkadaşımı seçebiliyormuyum?",
+                    "arkadaşımla aynı odada kalabilir miyim"
+                ],
+                "responses": [
+                    "Birlikte kalmak istediğiniz arkadaşınızın ismini belirttiğiniz takdirde, imkanlar nisbetinde dikkate alınmaktadır."
+                ]
+            },
+            {
+                "tag": "YabancıÖğrenciKonaklama",
+                "patterns": [
+                    "Yabancı uyruklu öğrenciler için nasıl konaklama imkanları var",
+                    "Ondokuzmayıs Üniversitesi konaklama imkanı sağlıyor mu?",
+                    "Uluslararası öğrenciler yurtlara başvurabilir mi? Başvuru şartlan ve olanaklar nelerdir?",
+                    "Yabancı öğrencilere yurt sağlanıyor mu ?",
+                    "yabancı öğrenciler nerde kalıyor"
+                ],
+                "responses": [
+                    "Üniversitemiz kampüs içinde uzun süreli konaklama imkanı sunmamaktadır. Konaklamadan öğrencinin kendisi sorumludur."
+                ]
+            },
+            {
+                "tag": "GlutensizYemek",
+                "patterns": [
+                    "Yemekhanelerde Çölyak hastaları için glutensiz yemek üretiliyor mu?",
+                    "yemekhanede glutensiz yemek var mı",
+                    "glutensiz yemek çıkıyor mu"
+                ],
+                "responses": [
+                    "Başvuru sayısına göre günlük glutensiz yemek üretimi yapılarak servis edilmektedir."
+                ]
+            },
+            {
+                "tag": "Yemek menüsü",
+                "patterns": [
+                    "Günlük yemek menüsüne nasıl ulaşabilirim?",
+                    "yemekhane listesi",
+                    "yemek listesi",
+                    "yarın yemekte ne var",
+                    "bu hafta yemekte ne var"
+                ],
+                "responses": [
+                    "Günün yemek menüsü her gün en geç saat 10:30’da http://sks.omu.edu.tr/ web adresinde Günün Yemeği sekmesinde resimli olarak yayınlanmaktadır. veya Bugün yemekte ne var diye bana sorabilirsiniz."
+                ]
+            },
+            {
+                "tag": "ParaYüklemeSaati",
+                "patterns": [
+                    "Neden OMÜ yemekhanesinde yemek için kartımıza para attığımızda sadece sabah 11.00 a kadar yükleniyor da sonraki saatler sonraki güne kalıyor?",
+                    "yemekhane kartına para yüklemenin neden saati var"
+                ],
+                "responses": [
+                    "Yemekhane sistemi belirli bir saat diliminde yüklenen bakiyeleri ertesi güne kadar geçerli kılmayı tercih ediyor olabilir. İlgili birimle iletişime geçerek veya geri bildirimde bulunarak bu konuda daha uygun bir çözüm bulunabilir."
+                ]
+            },
+            {
+                "tag": "AylıkYemekListesi",
+                "patterns": [
+                    "Aylık yemek listesine nasıl ulaşabilirim?"
+                ],
+                "responses": [
+                    "Aylık yemek listesine http://sks.omu.edu.tr/ web adresinde Günün Yemeği sekmesinden veya yemekhane girişlerindeki panolardan ulaşılabilmektedir."
+                ]
+            },
+            {
+                "tag": "Kafeterya",
+                "patterns": [
+                    "Kafeteryalar nerelerde",
+                    "Mühendislik fakültesinde Kafeterya var mı",
+                    "Okulda kantin var mı?",
+                    "fakültesinin kafeteryası var mı",
+                    "fakültesinin kantini var mı",
+                    "okulda kafeterya var mı"
+                ],
+                "responses": [
+                    "Üniversitemize her fakültenin kafeteryası bulunmaktadır."
+                ]
+            },
+            {
+                "tag": "YemekhaneÜcret",
+                "patterns": [
+                    "Öğrenci yemekhanesinin ücreti ne kadar?",
+                    "Yemekhane fiyat tarifesi",
+                    "Yemekhanede bir öğün kaç lira?",
+                    "okulda yemek ne kadar",
+                    "yemek fiyatları ne"
+                ],
+                "responses": [
+                    "Üniversitemizdeki öğrenciler için güncel yemekhane ücreti 20 TL'dir."
+                ]
+            },
+            {
+                "tag": "ÖğünSayısı",
+                "patterns": [
+                    "Yemekhane öğün sayısı kaçtır",
+                    "Yemekhanede kaç öğün yemek çıkıyor?",
+                    "Yemekhanede kahvaltı var mı",
+                    "yemekhanede öğle yemeği var mı",
+                    "yemekhanede ne zaman yemek çıkıyor"
+                ],
+                "responses": [
+                    "Üniversitemizdeki yemekhanelerde öğlen ve akşam olmak üzere 2 öğün yemek çıkmaktadır."
+                ]
+            },
+            {
+                "tag": "YemekÇeşidi",
+                "patterns": [
+                    "Yemekhanedeki Yemek çeşidi sayısı",
+                    "Yemekhane ürün çeşitliliği ne kadar?",
+                    "yemekhanede kaç çeşit yemek çıkıyor"
+                ],
+                "responses": [
+                    "Yemekhanelerimizde her öğün için 4 çeşit yemek çıkmaktadır."
+                ]
+            },
+            {
+                "tag": "HaftasonuYemek",
+                "patterns": [
+                    "haftasonu yemek veriliyor mu?",
+                    "cumartesi pazar yemek var mı"
+                ],
+                "responses": [
+                    "Haftanın 7 günü yemekhanemizden yemek çıkmaktadır."
+                ]
+            },
+            {
+                "tag": "YemenBursu",
+                "patterns": [
+                    "Yemek bursuna kimler başvurabilir?",
+                    "yemek bursu nedir",
+                    "yemek bursuna nasıl başvururum",
+                    "yemek bursuna nasıl başvurabilirim"
+                ],
+                "responses": [
+                    "Üniversitemizin kayıtlı öğrencisi olan herkes yemek bursuna başvurabilir. Yemek bursundan faydalanmak isteyen öğrenciler ilanda belirtilen tarihler arasında (portal.omu.edu.tr) adresinden başvurularını yapabilirler."
+                ]
+            },
+            {
+                "tag": "Ucuz yemek",
+                "patterns": [
+                    "Kampüste en ucuz ve guzel yemek nerde yenir?",
+                    "ucuz yemek nerden bulabilirim"
+                ],
+                "responses": [
+                    "En ucuz yemekler okulumunuzun yemekhanelerinde çıkmaktadır."
+                ]
+            },
+            {
+                "tag": "Laboratuvar",
+                "patterns": [
+                    "Labaratuvar var mı?",
+                    "Üniversitede kaç adet laboratuvar var?",
+                    "Lablar teknolojik olarak yeterli mi",
+                    "Laboratuvar ortamı yeterli mi?"
+                ],
+                "responses": [
+                    "Ondokuz Mayıs Üniversitesinde yaklaşık 255 laboratuvar bulunmaktadır. https://labsis.omu.edu.tr/labs adresinde üniversitemizdeki laboratuvarlar ve içerdikleri cihazların listesi bulunmaktadır. Bu listeyi inceleyip laboratuvarlar hakkında bilgi sahibi olabilirsiniz."
+                ]
+            },
+            {
+                "tag": "BilgisayarLab",
+                "patterns": [
+                    "Okulda bilgisayar laboratuarı var mı ?",
+                    "fakültesinde bilgisayar labı var mı",
+                    "fakültesinde bilgisayar labaratuvarı var mı"
+                ],
+                "responses": [
+                    "https://www.omu.edu.tr/tr/haritalar?h=laboratuvar Adresinden bilgisayar laboratuvarlarının konumu hakkında bilgi edinebilirsiniz."
+                ]
+            },
+            {
+                "tag": "Ring",
+                "patterns": [
+                    "ring fiyatları ne kadar",
+                    "Kampüs içi ringler ücretli mi?",
+                    "ring var mı"
+                ],
+                "responses": [
+                    "Kampüs içi ringler bulunmamaktadır. Kampüs içerisinde belediye otobüsleri ile ulaşım sağlanmaktadır. Belediye otobüsleri ücretlidir."
+                ]
+            },
+            {
+                "tag": "Ulaşım",
+                "patterns": [
+                    "Kampüse nasıl ulaşabilirim?",
+                    "Ondokuz Mayıs Üniversitesi'ne gitmek için toplu taşıma araçları nelerdir?",
+                    "okuldan merkeze nasıl giderim",
+                    "okula nasıl giderim"
+                ],
+                "responses": [
+                    "Üniversitemize ulaşım için toplu taşıma araçları (otobüs, dolmuş) kullanılabilir. Samsun şehir merkezinden kalkan otobüsler kampüsün farklı noktalarına hizmet vermektedir."
+                ]
+            },
+            {
+                "tag": "BelediyeOtobüsü",
+                "patterns": [
+                    "Okulda belediye otobüsleri var mı?",
+                    "belediye otobüsleri okuldan geçiyor mu"
+                ],
+                "responses": [
+                    "Üniversitemize ulaşım belediye otobüsleri ile sağlanmaktadır."
+                ]
+            },
+            {
+                "tag": "SosyalEtkinlik",
+                "patterns": [
+                    "Öğrencilere yönelik sosyal etkinlikler nelerdir",
+                    "üniversitede etkinlik var mı",
+                    "Sosyal etkinlikler yapılıyor mu"
+                ],
+                "responses": [
+                    "Üniversitemizde çeşitli kulüpler, etkinlikler ve sosyal faaliyetler düzenlenmektedir. https://sks.omu.edu.tr/sayfa-29-kultur_servisi.html adresinden güncel etkinliklere ulaşabilirsiniz."
+                ]
+            },
+            {
+                "tag": "SporTesisleri",
+                "patterns": [
+                    "üniversitede spor tesisleri var mı",
+                    "spor salonu var mı",
+                    "Üniversitede yüzme havuzu var mı"
+                ],
+                "responses": [
+                    "Üniversitemizde çeşitli spor tesisleri bulunmaktadır. Spor salonları, yüzme havuzu, futbol sahası, tenis kortları ve daha fazlası öğrencilerimizin hizmetindedir."
+                ]
+            },
+            {
+                "tag": "Kulüp",
+                "patterns": [
+                    "Üniversitede öğrenci kulüpleri var mı",
+                    "hangi öğrenci kulüpleri var",
+                    "kulüplere nasıl katılabilirim",
+                    "kulübe nasıl üye olabilirim"
+                ],
+                "responses": [
+                    "Üniversitemizde birçok öğrenci kulübü bulunmaktadır. Kulüplere katılmak için Sağlık, Kültür ve Spor Daire Başkanlığı'na başvurabilirsiniz. Detaylı bilgi için: https://sks.omu.edu.tr/sayfa-19-ogrenci_topluluklari.html"
+                ]
+            },
+            {
+                "tag": "Kütüphane",
+                "patterns": [
+                    "Kütüphane nerede",
+                    "Kütüphane çalışma saatleri",
+                    "Kütüphane üyelik nasıl yapılır",
+                    "kütüphane konum"
+                ],
+                "responses": [
+                    "Üniversitemizin kütüphanesi merkezi yerleşkede bulunmaktadır. Çalışma saatleri ve üyelik işlemleri için: https://katalog.omu.edu.tr/ adresini ziyaret edebilirsiniz."
+                ]
+            },
+    {
+        "tag": "FilmÖneri",
+        "patterns": [
+            "Film öner.",
+            "Film önerebilir misin"
+        ],
+        "responses": [
+            "Sana Interstellar(Yıldızlararası), Inception(Başlangıç), The Prestige(Prestij), Kehanet, What Happened to Monday, Altıncı His  gibi filmleri izlemenizi önerebilirim."
+        ],
+        "context_set": ""
+    },
+    
+    {
+        "tag": "SosyalMedya",
+        "patterns": [
+            "Sosyal medya kullanıyor musun?",
+            "instagramın var mı",
+            "twitterın var mı",
+            "youtube hesabın var mı",
+            "facebook kullanıyo musun"
+        ],
+        "responses": [
+            "Şu anlık sadece Telegram kullanıyorum. Telegrama omuonline_bot yazıp aratarak beni bulabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Dil",
+        "patterns": [
+            "Hangi dilleri konuşabiliyorsun?",
+            "Kaç dil biliyorsun?",
+            "ingilizce biliyo musun",
+            "türkçe biliyo musun",
+            "arapça biliyo musun"
+        ],
+        "responses": [
+            "Türkçe ve İngilizce olmak üzere 2 dil biliyorum fakat şu anlık sorulan soruları sadece Türkçe cevaplayabiliyorum."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Takım",
+        "patterns": [
+            "Hangi takımlısın?",
+            "Hangi takımı tutuyorsun?",
+            "Takım tutuyor musun?",
+            "Hangi spor takımını destekliyorsun?"
+        ],
+        "responses": [
+            "Samsunspor'u tutuyorum."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "İletişim",
+        "patterns": [
+            "OMÜ iletişim bilgileri nelerdir?",
+            "Üniversite ile nasıl irtibata geçebilirim?",
+            "okulla nasıl iletişime geçebilir",
+            "omü telefon numarası nedir",
+            "omü mail adresi nedir",
+            "omü iletişim"
+        ],
+        "responses": [
+            "Üniversitenin ana telefon numarası: +90 362 312 19 19, Üniversitenin genel e-posta adresi: info@omu.edu.tr"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Telefon",
+        "patterns": [
+            "Üniversitenin iletişim numarası nedir?",
+            "OMÜ telefon",
+            "Üniversitenin telefon numarası nedir?"
+        ],
+        "responses": [
+            "Üniversitenin ana telefon numarası: +90 362 312 19 19"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Eposta",
+        "patterns": [
+            "OMÜ e-posta",
+            "Okulun e-postası nedir?",
+            "Üniversitenin e-posta adresi nedir?"
+        ],
+        "responses": [
+            "Üniversitenin genel e-posta adresi: info@omu.edu.tr"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Adres",
+        "patterns": [
+            "OMÜ adres",
+            "omü konumu nedir"
+        ],
+        "responses": [
+            "Ondokuz Mayıs Üniversitesi, Kurupelit Kampüsü, 55270, Samsun, Türkiye"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "YasamMerkeziİletişim",
+        "patterns": [
+            "Yaşam merkezi ile nasıl iletişime geçebilirim?",
+            "Yaşam merkezi konumu",
+            "yaşam merkezi nerde"
+        ],
+        "responses": [
+            "https://omuyasammerkezi.com/iletisim.php adresinden yaşam merkezinin konumu ve iletişim bilgileri hakkında bilgi sahibi olabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "WebSitesi",
+        "patterns": [
+            "Üniversitenin web adresi nedir?",
+            "OMÜ internet sitesi",
+            "Üniversitenin internet sitesi nedir?",
+            "Ondokuz Mayıs Üniversitesi'nin resmi web sitesi nedir?"
+        ],
+        "responses": [
+            "Ondokuz Mayıs Üniversitesi'nin resmi web sitesi www.omu.edu.tr 'dir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Şikayet",
+        "patterns": [
+            "Üniversite ile ilgili sorunları nereye şikayet edebilirim?",
+            "Kampüsteki şikayetlerimi nereye iletmeliyim?"
+        ],
+        "responses": [
+            "Ondokuz Mayıs Üniversitesi ile ilgili şikayetlerinizi 0 (362) 312 19 40 nolu öğrenci danışma hattına iletebilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "UniSosyalMedya",
+        "patterns": [
+            "Okulumuzun sosyal medya hesapları nelerdir?",
+            "omü instagram hesabı nedir",
+            "omü twitter hesabı nedir",
+            "omü youtube hesabı nedir"
+        ],
+        "responses": [
+            "Okulumuzun instagram hesabı https://www.instagram.com/uniondokuzmayis/, okulumuzun twitter hesabı https://x.com/uniondokuzmayis ve okulumuzun YouTube hesabı https://www.youtube.com/@uniondokuzmayis"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "MezunlarDerneği",
+        "patterns": [
+            "Mezunlar derneği ile nasıl iletişime geçebilirim?",
+            "mezunlar derneğine nasıl ulaşabilirim"
+        ],
+        "responses": [
+            "Mezunlar derneği ile iletişime geçmek için derneğin web sitesinde yer alan iletişim bilgilerini kullanabilirsiniz. Etkinlikler ve üyelik hakkında bilgiye buradan ulaşabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Akademisyen",
+        "patterns": [
+            "Öğretim görevlilerine nereden ulaşabilirim",
+            "Hocalara nasıl ulaşabilirim?",
+            "hocalarla nasıl konuşabilirim"
+        ],
+        "responses": [
+            "Fakültelerdeki tüm akademisyenlerin kendilerine ait odaları bulunmaktadır. Ayrıca eğitim gördüğünüz bölümün internet sitesinden akademisyenlerin iletişim bilgilerine erişebilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Danışman",
+        "patterns": [
+            "Danışmanımla nasıl iletişime geçebilirim?",
+            "Danışmana nasıl ulaşabilirim"
+        ],
+        "responses": [
+            "Danışmanınızın iletişim bilgileri öğrenci bilgi sisteminde ve bölüm web sayfasında yer almaktadır. E-posta veya ofis saatlerinde yüz yüze görüşme için randevu alabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Kampüsler",
+        "patterns": [
+            "Üniversitenin başlıca kampüsü neresidir?",
+            "Kampüsler hangi bölgelerde bulunuyor",
+            "kampüsler nerede?",
+            "Üniversitenin kampüsleri nerede bulunuyor?",
+            "Üniversitedeki kampüs sayısı kaçtır?",
+            "omüde kaç kampüs var?",
+            "Üniversitenin ana kampüsü hangisidir?",
+            "Hangi ilçelerde kampüs bulunmaktadır?",
+            "kampüsler hangi ilçelerde?",
+            "Üniversitenin ana yerleşkesi neresi?"
+        ],
+        "responses": [
+            "Ondokuz Mayıs Üniversitesinde 4 farklı yerleşke bulunmaktadır. Ana kampüsümüz Atakum'da bulunan Kurupelit Yerleşkesi'dir. Diğer kampüsler hakkında detaylı bilgi için https://www.omu.edu.tr/tr/universitemiz/yerleskeler adresini ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "KampüsGüzellik",
+        "patterns": [
+            "Omü güzel mi",
+            "kampüs güzel mi?",
+            "Üniversitenin kampüsü hakkında görüşleriniz nelerdir?",
+            "OMÜ'nün kampüsü büyük mü?",
+            "OMÜ'nün kampüsü nasıldır?",
+            "Kampüsün yeşil alanları var mı?",
+            "Üniversitenin kampüsü nasıl?",
+            "kampüs nasıl"
+        ],
+        "responses": [
+            "OMÜ'nün kampüsü güzel, geniş bir alana yayılmış modern bir kampüstür. Kampüs, geniş yeşil alanlara, modern binalara, dersliklere, laboratuvarlara, kütüphanelere, spor tesislerine ve öğrenci konaklama birimlerine ev sahipliği yapmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Logo",
+        "patterns": [
+            "Omü logosunda ne anlam vardır?",
+            "Üniversitenin logosunun anlamı nedir?",
+            "omü logosunda ne anlatılmak istenmiş"
+        ],
+        "responses": [
+            "OMÜ logosunda Atatürk'ün ata binmesi sembolik bir anlam taşır. Bu sembolizm, Türkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk'ün ulusal mücadeleyi başlatmak için 19 Mayıs 1919'da Samsun'a çıkışını temsil eder. Atatürk'ün ata binmesi, bu tarihi olayın önemini vurgular ve üniversitenin adı olan 'Ondokuz Mayıs' ile doğrudan ilişkilidir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Kıslatma",
+        "patterns": [
+            "OMÜ neyin kısaltmasıdır?",
+            "Okulun tam ismi nedir?",
+            "OMÜ hangi üniversitenin kısaltmasıdır?",
+            "Omünün açılımı nedir?",
+            "okulun adı nedir?"
+        ],
+        "responses": [
+            "OMÜ'nün açılımı Ondokuz Mayıs Üniversitesidir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "OmüAd",
+        "patterns": [
+            "Omü adı nereden gelmektedir?",
+            "Üniversitenin ismi neden ondokuz mayıs",
+            "Ondokuz mayıs üniversitesi adı nereden geliyor?",
+            "okulun adı neden böyle"
+        ],
+        "responses": [
+            "19 Mayıs 1919 tarihinde 9. Ordu Müfettişi Atatürk'ün Bandırma Vapuru ile yaptığı yolculuk sonrası Samsun'a ulaşması ve bu olayın Kurtuluş Savaşı'nın fiili başlangıcı olarak kabul edilmesinden gelmektedir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Konum",
+        "patterns": [
+            "üniversitenin konumu nedir?",
+            "Omü hangi ilde?",
+            "Omü nerede?",
+            "Ondokuz Mayıs Üniversitesi hangi şehirdedir?",
+            "Omü hangi şehirde bulunuyor?",
+            "Ondokuz Mayıs Üniversitesi nerede bulunuyor?"
+        ],
+        "responses": [
+            "Ondokuz Mayıs Üniversitesi, Samsun, Türkiye'de bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "EskiFakülte",
+        "patterns": [
+            "Omünün en eski fakültesi",
+            "en eski fakülte hangisi",
+            "en köklü fakülte hangisi"
+        ],
+        "responses": [
+            "1973 yılında Hacettepe Üniversitesine bağlı olarak kurulan Samsun Tıp Fakültesi, 1873 sayılı Kanun'un 2. maddesi uyarınca yeni kurulan Ondokuz Mayıs Üniversitesine bağlanmıştır. Bu da Tıp Fakültesinin üniversitedeki en eski fakülte olduğunu göstermektedir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "MühendislikFakültesi",
+        "patterns": [
+            "Mühendislik Fakültesi hangi yıl açıldı",
+            "Mühendislik fakültesinin kuruluş tarihi nedir?",
+            "Mühendislik fakültesi ne zaman kuruldu?"
+        ],
+        "responses": [
+            "Ondokuz Mayıs Üniversitesi (OMÜ) Mühendislik Fakültesi, 1992 yılında kurulmuştur."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "EğitimFakültesi",
+        "patterns": [
+            "Eğitim fakültesinin kuruluş tarihi nedir?",
+            "Eğitim fakültesi ne zaman kuruldu?",
+            "Eğitim Fakültesi hangi yıl açıldı"
+        ],
+        "responses": [
+            "Ondokuz Mayıs Üniversitesinin en köklü fakültelerinden biri olan Eğitim Fakültesi'nin temelleri 1961 yılında atılmıştır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "KuruluşTarihi",
+        "patterns": [
+            "Ondokuz Mayıs Üniversitesi ne zaman kuruldu?",
+            "OMÜ eğitime ne zaman başladı?",
+            "Üniversitede eğitime başlangıç tarihi nedir?",
+            "Omü kaç yılında kurulmuştur?",
+            "omü ne zaman faaliyete geçti?",
+            "Üniversite ne zaman eğitime başladı?",
+            "omü ne zaman kuruldu?",
+            "Üniversite ne zaman açıldı?",
+            "Üniversitenin kurulma tarihi nedir?"
+        ],
+        "responses": [
+            "Ondokuz Mayıs Üniversitesi, 1 Nisan 1975 tarihinde kurulmuş ve eğitime başlamıştır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Rektör",
+        "patterns": [
+            "OMÜ rektörü kimdir?",
+            "Üniversitenin rektörü kim?",
+            "rektörün adı ne"
+        ],
+        "responses": [
+            "2020 yılı itibarıyla Ondokuz Mayıs Üniversitesi Rektörü Prof. Dr. Yavuz Ünal'dır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Dekan",
+        "patterns": [
+            "Yıldıray topçu kimdir?",
+            "Mühendislik dekanı kimdir",
+            "Mühendislik Fakültesinin Dekanı kimdir ?"
+        ],
+        "responses": [
+            "Mühendislik Fakültesi Dekanı Prof. Dr. Yıldıray TOPCU'dur"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "RektörDanışman",
+        "patterns": [
+            "rektör danışman kadrosu ",
+            "Üniversite rektör danışmanları kimlerdir?",
+            "rektör danışmanları"
+        ],
+        "responses": [
+            "Ondokuz Mayıs Üniversitesi rektör danışmanları Prof. Dr. Yavuz BAYRAM, Prof. Dr. Ramazan ÇAĞLAYAN, Prof. Dr. Nalan KIZILTAN, Prof. Dr. Zeliha KOÇ, Doç. Dr. Gökhan DEMİR ve Doç. Dr. Şener ŞENTÜRK'tür."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Senato",
+        "patterns": [
+            "Üniversitenin senato kadrosu",
+            "Üniversitede Senato kimlerden oluşmaktadır?",
+            "senatoda kimler var"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/yonetim/senato Adresinden senato kadrosu hakkında bilgi edinebilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "BilgisayarMühendisliği",
+        "patterns": [
+            "Bilgisayar mühendisliği personel kadrosu",
+            "Bilgisayar mühendisliği öğretim üyeleri kimlerdir ? ",
+            "Bilgisayar mühendisliği bölümü akademisyen kadrosu kimlerdir?",
+        "bilgisayar mühendisliği hocaları kimler",
+        "bilgisayar mühendisliği hocalarına nasıl ulaşabilirim"
+        ],
+        "responses": [
+            "https://bil-muhendislik.omu.edu.tr/tr/personel/ogretim-uyeleri Adresinden bilgisayar mühendisliği öğretim üyelerini ve uzmanlık alanlarını inceleyebilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "SosyalEtkinliklerÖnemi",
+        "patterns": [
+            "üniversite sosyal etkinliklerinin önemi",
+            "neden sosyal etkinliklere katılmalıyım?",
+            "sosyal etkinliklere katılmalı mıyım",
+            "Sosyal aktivitiler ne için önemlidir?",
+            "sosyal aktivitelere katılmalı mıyım"
+        ],
+        "responses": [
+            "Üniversitedeki sosyal aktiviteler öğrenciler arasındaki ilişkilerin kurulmasına, öğrencilerin kişisel gelişimine, öğrencilerin ruh sağlığını korumalarına ve öğrencilere gelecekteki kariyerleri için önemli bir ağ oluşturma fırsatı sunar."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Etkinlik",
+        "patterns": [
+            "üniversite etkinlik takvimi",
+            "Okuldaki etkinliklerden nasıl haber alabilirim?",
+            "etkinliklere nerden ulaşabilirim",
+            "etkinlikleri nerden öğrenicem",
+            "okuldaki etkinlikler"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/takvim adresinden üniversitenin etkinlik takvimine göz atabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "YaşamMerkezi",
+        "patterns": [
+            "Yaşam merkezinde ne tür aktiviteler yapılabilir",
+            "Yaşam merkezinde neler var?",
+            "yaşam merkezinde napılır",
+            "yaşam merkezinde ne yapılır",
+            "Yaşam merkezi nasıl bir yer"
+        ],
+        "responses": [
+            "Yaşam merkezinde öğrencilerin yemek yiyebileceği, etkinliklere katılabileceği, oyun oynayabileceği, kırtasiye ihtiyaçlarını karşılayabileceği ve daha bir çok faaliyeti gerçekleştirebilecekleri bir konumdur."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "KampüsteZaman",
+        "patterns": [
+            "kampüste zaman geçirmek için nerelere gidebilirim",
+            "kampüste nerede vakit geçirebilirim",
+            "Başka bölümlerden öğrenciler ile nerede tanışabilirim",
+            "Farklı fakülte öğrencileriyle vakit geçirebileceğim yerler nerelerdir? ",
+            "kampüste ne yaparım",
+            "kampüste sıkılınca ne yapabilirim",
+            "sıkıldım"
+        ],
+        "responses": [
+            "Kampüsümüzde bir adet yaşam merkezi bulunmaktadır. Burada tüm fakültelerden öğrenciler toplanır. Eğer yaşam merkezine uğrarsanız farklı fakülteden insanlar ile vakit geçirebilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "KulüpKurmak",
+        "patterns": [
+            "Öğrenci kulüpleri nasıl kurulur?",
+            "Kulüp kurmak için ne yapmam lazım",
+            "nasıl öğrenci topluluğu kurarım",
+            "Yeni bir topluluk nasıl kurabilirim?",
+            "nasıl kulüp kurarım"
+        ],
+        "responses": [
+            "Sağlık Kültür ve Spor Daire Başkanlığı web sayfamızdan öğrenci topluluğu kurucu üye formunu doldurarak, öğrenci belgeleri ile birlikte Ekim ayı sonuna kadar dilekçe ile başvurunuzu yapabilirsiniz. Öğrencilerimiz seçecekleri danışmanları ile farklı ilgi alanlarında yeni öğrenci topluluğu kurabilmektedir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "KulüpÜcretleri",
+        "patterns": [
+            "Öğrenci topluluklarına katılmak paralı mı",
+            "Kulüplere ücretsiz bir şekilde girebilir miyim?",
+            "kulüpler paralı mı",
+            "topluluklar paralı mı"
+        ],
+        "responses": [
+            "Öğrenciler ücretsiz olarak öğrenci kulübüne üye olabilmektedirler."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "FazlaKulüp",
+        "patterns": [
+            "Birden fazla kulübe girebilir miyim",
+            "Birden fazla topluluğa üye olabilir miyim?",
+            "birsürü kulübe katılabilir miyim",
+            "birsürü topluluğa katılabilir miyim"
+        ],
+        "responses": [
+            "Öğrenci Toplulukları Yönergesi gereği bir öğrenci en fazla dört öğrenci topluluğuna üye olabilir, ancak birden fazla öğrenci topluluğun yönetim ve denetim kurulunda görev alamaz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Topluluk",
+        "patterns": [
+            "Bir topluluğa nasıl üye olabilirim?",
+            "topluluğa nasıl katılırım",
+            "topluluğa nasıl üye olabilirim"
+        ],
+        "responses": [
+            "https://topluluk.omu.edu.tr/ adresinden (Topluluk Bilgi Sistemi) öğrenci numarası ve şifresiniz ile bir topluluğa üye olabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Kulüpler",
+        "patterns": [
+            "okuldaki kulüpler nelerdir?",
+            "Faaliyet gösteren kulüpler neler?",
+            "Üniversite kulüpleri var mı?",
+            "Hangi kulüp ve öğrenci organizasyonlarına katılmalıyım?",
+            "omü kulüp sayısı kaçtır",
+            "Okulda kaç kulüp vardır?",
+            "Okulda kaç tane öğrenci topluluğu vardır?",
+            "Okulda hangi kulüpler bulunmaktadır?",
+            "Öğrenci toplulukları nelerdir?",
+            "Hangi öğrenci toplulukları var?",
+            "Üniversitenin kulüpleri hakkında bilgi alabilir miyim?"
+        ],
+        "responses": [
+            "Universitemizde ders dışı zamanlarını yararlı bir şekilde geçirmeleri amacı ile kültür, sanat, spor, düşünce ve kariyer alanlarında faaliyetlerde bulunmak üzere kurulmuş 78 öğrenci topluluğu bulunmaktadır. Bu toplulukları incelemek için https://www.omu.edu.tr/tr/ogrenci/ogrenci-topluluklari adresini ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "topluluk_katilmak",
+        "patterns": [
+            "Bir kulüp veya organizasyona nasıl katılabilirim?",
+            "Okul kulüplerine girmek için ne yapmalıyım? "
+        ],
+        "responses": [
+            "Üniversitemizde kulüp temsilcileri bulunmaktadır. Bu temsilcilere ulaşarak veya düzenli olarak açılan standtları takip ederek kulüplere katılabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "SporSalonuKayıt",
+        "patterns": [
+            "Spor salonuna nasıl kayıt olabilirim?",
+            "spor salonuna nasıl üye olurum",
+            "spor salonuyla iletişime nasıl geçerim"
+        ],
+        "responses": [
+            "Spor salonu, spor kompleksinde yer almakta olup, kayıt işlemleri spor merkezi ofisinde yapılmaktadır. Çalışma saatleri ve üyelik ücretleri hakkında bilgi için spor merkezi web sayfasını ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },  
+    {
+        "tag": "SporSalonuKonum",
+        "patterns": [
+            "Spor salonu nerde",
+            "spor salonuna nasıl gidebilirm",
+            "spor salonu var mı"
+        ],
+        "responses": [
+            "Okulumuzun Yaşar Doğu Spor Bilimleri Fakültesinde okula ait spor salonu bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "SosyalFaaliyet",
+        "patterns": [
+            "Fakülte çevresinde ihtiyaç sahibi insanlara yardım edebileceğim sosyal faaliyetler var mı?",
+            "Omü de sosyal faaliyet var mı?",
+            "omü sosyal etkinlikleri nelerdir",
+            "okulda sosyal etkinlik olarak neler var",
+            "Üniversiteniz sosyal etkinlik açısından zengin mi"
+        ],
+        "responses": [
+            "OMÜ'nün çevresinde ihtiyaç sahibi insanlara yardım edebileceğiniz birçok sosyal faaliyet bulunabilir. Bunlar bazı öğrenci toplulukları, çevredeki sosyal yardım kuruluşları ve dernek faaliyetleri olabilir. Daha fazla bilgi için https://www.omu.edu.tr/tr/etkinlikler/Sosyal adresini ziyaret edebilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Diksiyon",
+        "patterns": [
+            "Diksiyon ve hitabet gibi yeteneklerimi geliştirmek için okuldan destek alabilir miyim?",
+            "okulda diksiyon ve hitabet için bir şey var mı"
+        ],
+        "responses": [
+            "Evet, OMÜ'den diksiyon ve hitabet gibi yeteneklerinizi geliştirmek için destek alabilirsiniz. Diksiyon öğrenci topluluğu, bireysel danışmanlar ve bazı eğitim kurslarından bu konuda yararlanabilirsiniz."
+        ],
+        "context_set": ""
+    },
+
+    {
+        "tag": "Havuz",
+        "patterns": [
+            "Üye olmadan üniversitedeki havuza girebilir miyim?",
+            "havuza girebilir miyim",
+            "havuza nasıl girebilirim",
+            "okulun havuzu nasıl kullanılır"
+        ],
+        "responses": [
+            "Sağlık ve güvenlik kuralları gereği, üye olmayan kişileri yüzme havuzuna kabul etmiyoruz. Ancak Üyeliği sonlanmış (kayıtlı bilgileri olan) kullanıcılar misafir ücreti karşılığında kullanabilirler."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Tenis",
+        "patterns": [
+            "Tenis Kortu, Sguash Salonu, Masa Tenisi hizmetlerinden nasıl faydalanabiliriz?",
+            "tenis kortunu kullanabilir miyim",
+            "tenis kortu hakkında bilgi alabilir miyim",
+            "Sguash salonu ve masa tenisini nasıl oynarım"
+        ],
+        "responses": [
+            "Sağlık ve güvenlik kuralları gereği, üye olmayan kişileri yüzme havuzuna kabul etmiyoruz. Ancak Üyeliği sonlanmış (kayıtlı bilgileri olan) kullanıcılar misafir ücreti karşılığında kullanabilirler."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Otopark",
+        "patterns": [
+            "Okulda öğrencilerin de park yapabileceği bir otopark var mı?",
+            "omüde Arabamı nereye park edebilirim?",
+            "üniversitede otopark var mı",
+            "omüde misafirler araçlarını nereye park edebilir?",
+            "otopark konum",
+            "omüde oropark nerede",
+            "Okulda park edebilir miyim?"
+        ],
+        "responses": [
+            "Fakültelerin önlerinde öğrencilerin de park yapabileceği otoparklar bulunmaktadır. https://www.omu.edu.tr/tr/haritalar?h=park Adresinden otoparkların konumu hakkında bilgi sahibi olabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    
+    {
+        "tag": "ATM",
+        "patterns": [
+           "Kampüsteki atm sayısı kaçtır?",
+            "omüde ATM var mı?",
+            "okulda banka veya atm bulunuyor mu?",
+            "omüde banka var mı?",
+            "Kampüste kaç adet atm var?",
+            "okulda para çekme makinası bulunuyor mu?",
+            "ATMler nerede",
+            "banka konum",
+            "ATM konum",
+            "ATM konumları neresi",
+            "bankamatik var mı",
+            "okulda ziraat bankası var mı?",
+            "kampüsten para çekebiliyor muyum",
+            "Kampüste nereden para çekebilirim ?"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/haritalar?h=atm Adresinden kampüsteki ATM'ler ve konumları hakkında bilgi sahibi olabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "İdariBirimler",
+        "patterns": [
+            "idari birimlere nasıl gidebilirim?",
+            "idari birimlerin konumları neresi",
+            "Üniversitenin idari birimleri nerede?",
+            "idari birimlerle nasıl ilteişime geçebilirim"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/haritalar?h=idari Adresinden üniversitemizin idari birimler ve konumları hakkında bilgi sahibi olabilirsiniz."
+        ]
+    },
+    {
+        "tag": "Öğrenciİşleri",
+        "patterns": [
+            "Üniversitenin öğrenci işlerine nasıl ulaşabilirim?",
+            "Üniversitenin öğrenci işleri daire başkanlığı nerededir ?",
+            "oidb binası nerede",
+            "Öğrenci işleri ile işim var binası nerede ?",
+            "öğrenci işleri nerde",
+            "öğrenci işleri ile nasıl iletişime geçerim"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/haritalar?h=oidb Adresinden üniversitenin öğrenci işleri daire başkanlığının konumunu bulabilirsiniz."
+        ]
+    },
+    {
+        "tag": "KablosuzAğ",
+        "patterns": [
+            "Kampüste kablosuz ağ alanları bulunmakta mı ?",
+            "omüde kablosuz internet bulunuyor mu?",
+            "omüde wifi var mı?",
+            "kampüste şifresiz wifi var mı",
+            "wifi konum",
+            "Wifi alanları bulunuyor mu ?"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/haritalar?h=ag Adresinden kampüslerdeki kablosuz ağ alanlarının konumları hakkında bilgi edinebilirsiniz."
+        ]
+    },
+    {
+        "tag": "YabancıÖğrenci",
+        "patterns": [
+            "yabancı öğrenciler kaydını nerede yapıyor?",
+            "Uluslararası öğrenci kayıt binası nerede?",
+            "Uluslararası öğrenci kayıt merkezi nerede ?",
+            "yabancı öğrenci kayıt için ne yapılır"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/haritalar?h=yos Adresinden uluslararası öğrenci kayıt merkezinin konumunu bulabilirsiniz."
+        ]
+    },
+    {
+        "tag": "Cami",
+        "patterns": [
+            "Kampüste cami nerede ?",
+            "cuma namazını nerede kılabilirim?",
+            "üniversitede ibadet edebileceğim bir cami var mı",
+            "Camiye nasıl giderim?",
+            "kampüste cami var mı?",
+            "cami konum",
+            "omüde cami var mı?",
+            "Üniversitede cami bulunuyor mu ? "
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/haritalar?h=diger Adresinden Ondokuz Mayıs Üniversitesi Cami konumu hakkında bilgi edinebilirsiniz."
+        ]
+    },
+    {
+        "tag": "Mescit",
+        "patterns": [
+            "omüde mescit var mı ",
+            "okulda ibadet edebileceğim yerler neresidir",
+            "okulda ibadet yeri var mı",
+            "nerede namaz kılabilirim"
+        ],
+        "responses": [
+            "Kampüsümüzdeki tüm fakültelerde namaz kılabileceğiniz mescitler bulunmaktadır. Buna ek olarak kampüsümüzde büyük bir cami bulunmaktadır."
+        ]
+    },
+    {
+        "tag": "Kargo",
+        "patterns": [
+            "kargo gödermek için nereye gitmeliyim",
+            "ptt konum",
+            "nereden kargo yollayabilirim?",
+            "Kampüsteki Ptt nerede",
+            "nasıl kargo gönderirim"
+        ],
+        "responses": [
+            "Kampüs içerisinde bulunan PTT Kargo'nun adresi: Körfez Mah. 19 Mayıs Caddesi Kurupelit Sokak No: 1/1 19 Mayıs Üniversitesi Kampüsü Atakum Samsun"
+        ]
+    },
+    {
+        "tag": "Konferans",
+        "patterns": [
+            "konferans salonu konum",
+            "okuldaki konferans salonuna nasıl gidebilirim",
+            "kültür merkezi konum",
+            "konferans salonu binası nerede",
+            "Üniversitenin konferans salonu var mı?",
+            "OMÜ Atatürk Kongre ve Kültür Merkezi nerededir ?",
+            "konferans salonu nerde"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/haritalar?h=konferans Adresinden Atatürk Kongre ve Kültür Merkezinin konumunu bulabilirsiniz."
+        ]
+    },
+    {
+        "tag": "Kütüphane",
+        "patterns": [
+            "Üniversitenin kütüphanesi bulunuyor mu?",
+            "Omü kütüphane",
+            "Üniversitede Kütüphane var mı ?",
+            "okulun kütüphanesi var mı"
+        ],
+        "responses": [
+            "Kurupelit kampüsünde OMÜ Merkez Kütüphanesi adında büyük bir kütüphane bulunmaktadır. https://www.omu.edu.tr/tr/haritalar?h=kutuphane Adresinden OMÜ Merkez Kütüphanesinin konumu hakkında bilgi edinebilirsiniz."
+        ]
+    },
+    {
+        "tag": "Hastane",
+        "patterns": [
+            "omüde hastane var mı?",
+            "hastane konum",
+            "omü hastaneye nasıl gidebilirim?",
+            "tıp fakültesindeki hastane nerede",
+            "üniversite hastanesinin konumu nerede?",
+            "okulda hastane bulunuyor mu?",
+            "omü hastane nerede?",
+            "tıp fakültesi nerde",
+            "tıp nerde"
+        ],
+        "responses": [
+            "https://maps.app.goo.gl/zBHaQa8AoPu2VmY5A Adresinden OMÜ Hastanesinin konum bilgisine erişebilirsiniz."
+        ]
+    },
+    {
+        "tag": "Yurt",
+        "patterns": [
+            "Kampüste kaç tane yurt var?",
+            "Okulda nerede kalabilirim?",
+            "yurt konum",
+            "öğrenciler için kalacak yer var mı?",
+            "yurt var mı ?",
+            "Kampüsteki konaklama seçenekleri nelerdir",
+            "üniversitede konaklanacak yerler",
+            "okulda erkek yurdu var mı?",
+            "omüde kız yurdu var mı?",
+            "Kampüsteki yurtlar nerede ? ",
+            "yurtlar"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/haritalar?h=binalar Adresinden kampüs içerisindeki yurtlar ve konumları hakkında bilgi edinebilirsiniz."
+        ]
+    },
+    {
+        "tag": "Mühendislik",
+        "patterns": [
+            "Elektrik Mühendisliği bölümü dersleri nerede işliyor.?",
+            "Bilgisayar Mühendisliği nerede?",
+            "Mühendislik derleri nerede işleniyor?",
+            "Mühendislik fakültesine nasıl gidebilirim?",
+            "Mühendislik fakültesi nerede?",
+            "Mühendislik fakültesi konum",
+            "Makine mühendisliği hangi kampüste ?"
+        ],
+        "responses": [
+            "Üniversitemizin Mühendislik bölümü öğrencileri Kurupelit Yerleşkesindeki Mühendislik Fakültesinde derslerini görmektedir. https://maps.app.goo.gl/NgBmknWcNNyFY7N79 adresinden fakültenin tam konumuna ulaşabilirsiniz."
+        ]
+    },
+    {
+        "tag": "Yemekhane",
+        "patterns": [
+            "Üniversitede yemekhane bulunuyor mu?",
+            "yemekhane konum",
+            "Yemekhane var mı?",
+            "okulun çevresinde nerede yemek yiyebilirim?",
+            "okuldaki yemek yerleri",
+            "okulda yemek yiyebileceğim yerler var mı?",
+            "kampüste lokanta var mı",
+            "Kampüste restoran var mı?",
+            "Kampüste market veya cafe var mı?",
+            "kantin konum",
+            "Okulda kaç tane kafe var?",
+            "yemekhane nerde"
+        ],
+        "responses": [
+            "Kampüs içinde 6 adet yemekhane-kantin bulunmaktadır. https://www.omu.edu.tr/tr/haritalar?h=yemekhane sitesinden bu yemekhanelerin konumlarına bakabilirsiniz. Ayrıca bunlara ek olarak yaşam merkezinde de yemek yiyebileceğiniz yerler mevcuttur."
+        ]
+    },
+    
+    {
+        "tag": "SporAlanları",
+        "patterns": [
+            "spor alanları konum",
+            "basket sahası konum",
+            "halı saha nerede",
+            "spor yapabileceğim yerler var mı",
+            "kampüste spor tesisleri var mı",
+            "Okulda spor yapabileceğim alanlar var mı?",
+            "spor nerde yapılır"
+        ],
+        "responses": [
+            "Kampüs içerisinde tenis kortları, basketbol sahası, halı saha, kapalı spor salonu gibi bir çok spor alanı bulunmaktadır. https://www.omu.edu.tr/tr/haritalar?h=spor Adresinden kampüs içerisindeki spor alanlarının konumlarına ulaşabilirsiniz."
+        ]
+    },
+    {
+        "tag": "Otobüs",
+        "patterns": [
+            "Üniversiteye hangi otobüsler gidiyor?",
+            "Kampüse giden otobüsler",
+            "Kaç numaralı otobüs kampüsten geçiyor?",
+            "Otobüs konum",
+            "Kampüse otobüs var mı?",
+            "Kaç numaralı otobüsler okuldan geçer",
+            "Üniversiteye giden otobüsler neler?"
+        ],
+        "responses": [
+            "https://www.omu.edu.tr/tr/haritalar?h=ulasim Adresinden üniversitemize ve kampüse giden otobüsler hakkında bilgi edinebilirsiniz."
+        ]
+    },
+    {
+        "tag": "SanatEtkinlikleri",
+        "patterns": [
+            "Samsunda hangi sanat etkinlikleri düzenlenir?",
+            "samsunda sanat etkinliği var mı",
+            "samsundaki sanat etkinleri nelerdir"
+        ],
+        "responses": [
+            "Samsun'da sanat etkinlikleri arasında resim sergileri, heykel sergileri, konserler, tiyatro gösterileri ve film festivalleri gibi etkinlikler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Mangal",
+        "patterns": [
+            "Samsunda nerede mangal yapılabilecek güzel alanlar bulunur?",
+            "nerede pinkin yapabilirim",
+            "nerede mangal yapabilirim",
+            "mangal",
+            "piknik"
+        ],
+        "responses": [
+            "Samsun'da mangal yapmak için güzel alanlar arasında sahil şeridi, Batı Park, Doğu Park ve Kızılırmak Deltası Milli Parkı gibi yerler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Bisiklet",
+        "patterns": [
+            "Samsunda nerede bisiklet sürülebilir?",
+            "samsunda bisiklet sürebilir miyim",
+            "bisiklet alanları"
+        ],
+        "responses": [
+            "Samsun'da bisiklet sürmek için uygun alanlar arasında sahil şeridi, Batı Park ve Terme Sahili gibi yerler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Avm",
+        "patterns": [
+            "Samsunda hangi alışveriş merkezleri bulunur?",
+            "samsunda kaç tane alışveriş merkezi var",
+            "samsundaki avmler neler",
+            "avm",
+            "alışveriş merkezi var mı"
+        ],
+        "responses": [
+            "Samsun'da alışveriş merkezleri arasında Piazza, Bulvar AVM, Yücesoy AVM, Migros AVM ve Novada AVM gibi yerler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Camiler",
+        "patterns": [
+            "Samsunda hangi camiler ziyaret edilebilir?",
+            "samsunda turistik cami var mı",
+            "samsunda hangi camilere gidilir"
+        ],
+        "responses": [
+            "Samsun'da ziyaret edilebilecek camiler arasında Pazar Camii, Tekkeköy Camii, Atakum Yeni Camii ve Çarşamba Ulu Camii bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Restoran",
+        "patterns": [
+            "Samsunda hangi restoranlar ve kafeler popülerdir?",
+            "samsun restoranlarından popülerleri hangisi",
+            "hangi restorana gidilir"
+        ],
+        "responses": [
+            "Samsun'da popüler restoranlar arasında Karadeniz mutfağından lezzetler sunan mekanlar, deniz ürünleri restoranları ve şehir manzarasına hakim kafeler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "EtkinlikSamsun",
+        "patterns": [
+            "Samsunda hangi etkinlik merkezleri bulunur?",
+            "samsunda hangi etkinlikler yapılır",
+            "samsunda nasıl etkinlikler yapılır"
+        ],
+        "responses": [
+            "Samsun'da etkinlik merkezleri arasında kongre ve kültür merkezleri, sinema salonları, tiyatro salonları ve konser salonları bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Köprü",
+        "patterns": [
+            "Samsunda hangi tarihi köprüler bulunur?",
+            "samsundaki ünlü köprüler",
+            "hangi köprüler ziyaret edilir"
+        ],
+        "responses": [
+            "Samsun'da tarihi köprüler arasında Ladik Köprüsü, Vezirköprü Köprüsü ve Terme Kemer Köprüsü gibi eski ve tarihi köprüler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Sergi",
+        "patterns": [
+            "Samsunda hangi sanat galerileri ve sergi alanları bulunur?",
+            "samsunda hangi sergi galerileri var",
+            "samsunda hangi sanat galerileri var"
+        ],
+        "responses": [
+            "Samsun'da sanat galerileri ve sergi alanları arasında Samsun Kent Müzesi, Atatürk Kültür Merkezi ve özel sanat galerileri bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Samsun",
+        "patterns": [
+            "Samsunun coğrafi konumu nedir?",
+            "samsun nerde",
+            "samsunun konumu nerde"
+        ],
+        "responses": [
+            "Samsun, Karadeniz kıyısında, Orta Karadeniz Bölgesi'nde yer alan bir şehirdir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "İklim",
+        "patterns": [
+            "Samsunun iklimi nasıldır?",
+            "samsunun iklimi nedir",
+            "samsunda hava koşulları nasıl"
+        ],
+        "responses": [
+            "Samsun, tipik olarak Karadeniz iklimine sahiptir. Yazlar sıcak ve nemli, kışlar ılık ve yağışlı geçer."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "TarihiYerler",
+        "patterns": [
+            "Samsunda görülmesi gereken tarihi yerler nelerdir?",
+            "samsunda gezilecek tarihi yerler",
+            "tarihi mekanlar"
+        ],
+        "responses": [
+            "Samsun Arkeoloji ve Etnografya Müzesi, Bandırma Vapuru Müzesi, Amisos Tiyatrosu, Pazar Camii ve Atatürk Evi gibi birçok tarihi mekanı bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Festival",
+        "patterns": [
+            "Samsunda hangi festivaller düzenlenir?",
+            "samsunda festival var mı",
+            "samsundaki festivaller nelerdir",
+            "samsundaki güzel festivaller nelerdir"
+        ],
+        "responses": [
+            "Samsun'da yıl boyunca birçok festival düzenlenmektedir, bunlardan en önemlileri Atatürk'ü Anma ve Samsun Kurtuluş Günü etkinlikleri, Samsun Bienali ve Uluslararası Karadeniz Tiyatro Festivali'dir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Ekonomi",
+        "patterns": [
+            "Samsunun ekonomisi nasıldır?",
+            "samsunun ekonomik durumu nasıl",
+            "samsunda ekonomi"
+        ],
+        "responses": [
+            "Samsun, tarım, hayvancılık, ticaret, sanayi ve turizm gibi çeşitli sektörlerde faaliyet gösteren dinamik bir ekonomiye sahiptir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Yiyecek",
+        "patterns": [
+            "Samsunun en ünlü yiyeceği nedir?",
+            "samsunun meşhur yemeği nedir",
+            "samsunda ne yenir",
+            "samsunun dünyaca ünlü yemeği nedir"
+        ],
+        "responses": [
+            "Samsun'un en ünlü yiyeceği, yerel lezzetlerden oluşan Karadeniz mutfağına özgü yemeklerdir. Bu yemekler arasında mısır ekmeği, hamsi pilavı, mısır çorbası ve karalahana çorbası bulunur."
+        ],
+        "context_set": ""
+    },
+
+
+    {
+        "tag": "Dağ",
+        "patterns": [
+            "Samsunun en yüksek dağı hangisidir?",
+            "samsundaki en yüksek dağ nedir"
+        ],
+        "responses": [
+            "Samsun'un en yüksek dağı Akdağ'dır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "DevletHastanesi",
+        "patterns": [
+            "Samsunda kaç tane devlet hastanesi bulunmaktadır?",
+            "samsundaki devlet hastanesi sayısı kaçtır",
+            "kaç adet devlet hastanesi var"
+        ],
+        "responses": [
+            "Samsun'da 12 tane devlet hastanesi bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Tramvay",
+        "patterns": [
+            "Samsunda en popüler ulaşım aracı nedir?",
+            "samsunda en çok hangi ulaşım aracı kullanılır",
+            "samsunda en çok hangi ulaşım aracı tercih edilir"
+        ],
+        "responses": [
+            "Samsun'da en popüler ulaşım aracı tramvaydır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "BüyükCami",
+        "patterns": [
+            "Samsunun en büyük camisi hangisidir?",
+            "samsundaki en büyük cami nedir",
+            "samsunda diğerlerindan daha büyük cami hangisidir"
+        ],
+        "responses": [
+            "Samsun'un en büyük camisi Merkez Büyük Camii'dir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "DoğalGüzellikler",
+        "patterns": [
+            "Samsunda hangi doğal güzellikler bulunmaktadır?",
+            "Samsundaki doğal güzellikler nelerdir",
+            "samsunda doğal güzellik var mı"
+        ],
+        "responses": [
+            "Samsun'da Kızılırmak Deltası, Ayvacık Yaylası ve Ladik Gölü gibi doğal güzellikler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Kilise",
+        "patterns": [
+            "Samsunda hangi ünlü tarihi kilise bulunmaktadır?",
+            "samsundaki ünlü tarihi kilise neresidir",
+            "samsunda tarihi kilise var mı"
+        ],
+        "responses": [
+            "Samsun'da Taşhan Kilisesi bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Meyve",
+        "patterns": [
+            "Samsunda en fazla hangi meyve yetiştirilir?",
+            "samsunda hangi meyve yetiştirilir",
+            "samsunda yetiştirilmesi en fazla olan meyve nedir"
+        ],
+        "responses": [
+            "Samsun'da en fazla fındık ve çilek yetiştirilir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Spor",
+        "patterns": [
+            "Samsunda hangi spor dalı özellikle gelişmiştir?",
+            "samsundaki gelişmiş sporlar hangileri",
+            "samsundaki en çok tercih edilen spor dalı nedir"
+        ],
+        "responses": [
+            "Samsun'da güreş ve futbol özellikle gelişmiştir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "SuParkı",
+        "patterns": [
+            "Samsunda hangi su parkları ve eğlence merkezleri bulunur?",
+            "samsunda su parkı var mı",
+            "samsunda eğlence merkezi var mı"
+        ],
+        "responses": [
+            "Samsun'da su parkları ve eğlence merkezleri arasında Aquapark, lunaparklar ve eğlence kompleksleri bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "GünlükTur",
+        "patterns": [
+            "Samsunda hangi günlük turlar yapılabilir?",
+            "samsunda günlük tur var mı",
+            "samsunda günlük tur yapabileceğim yerler var mı"
+        ],
+        "responses": [
+            "Samsun'da günlük turlar arasında şehir turu, doğa turu, tarih turu ve lezzet turu gibi farklı seçenekler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+  {
+        "tag": "SuSporları",
+        "patterns": [
+            "Samsunda hangi su sporları yapılabilmektedir?",
+            "samsunda su sporu yapılır mı",
+            "hangi su sporunu yapabilirim"
+        ],
+        "responses": [
+            "Samsun'da su sporları arasında yüzme, yelken, sörf, kano ve deniz bisikleti gibi aktiviteler yapılabilir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Şelale",
+        "patterns": [
+            "Samsunda hangi şelaleler bulunur?",
+            "samsunda şelale var mı",
+            "samsundaki şelaleler hangileri",
+            "samsunda gezilecek şelaleler hangileri"
+        ],
+        "responses": [
+            "Samsun'da şelaleler arasında Akalan Şelaleleri, Gölalan Şelalesi, Kunduz Gölü Şelalesi ve Yeşilpınar Şelalesi gibi şelaleler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Kayak",
+        "patterns": [
+            "Samsunda hangi kayak merkezleri bulunur?",
+            "samsunda kayak merkezi var mı",
+            "samsundaki kayak merkezleri"
+        ],
+        "responses": [
+            "Samsun'da kayak merkezleri arasında Ladik Yaylası Kayak Merkezi ve Bafra Belediyesi Yavşan Kayak Merkezi gibi tesisler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "AntikKent",
+        "patterns": [
+            "Samsunda hangi antik kentler ve ören yerleri bulunur?",
+            "samsundaki antikkentler neresi"
+        ],
+        "responses": [
+            "Samsun'da antik kentler ve ören yerleri arasında Amisos Antik Kenti, İlkadım Höyük, Hanyeri Höyüğü ve Gerze Antik Kenti bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Mağara",
+        "patterns": [
+            "Samsunda hangi mağaralar turistlerin ilgisini çeker?",
+            "samsundaki mağaralar hangileri",
+            "samsunda mağara var mı"
+        ],
+        "responses": [
+            "Samsun'da turistlerin ilgisini çeken mağaralar arasında Ballıca Mağarası, Göçkün Mağarası ve Kuşkayası Mağarası gibi doğal güzellikler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "DoğaYürüyüşü",
+        "patterns": [
+            "Samsunda hangi trekking ve doğa yürüyüşü rotaları vardır?",
+            "samsunda trekking ve doğa yürüyüşü yapılır mı",
+            "samsunda nerde trekking ve doğa yürüyüşü yapılır"
+        ],
+        "responses": [
+            "Samsun'da trekking ve doğa yürüyüşü rotaları arasında Kızılırmak Deltası Milli Parkı, 19 Mayıs Yürüyüş Yolu ve Bafra Çamburnu Doğa Yürüyüş Yolu gibi güzergahlar bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Golf",
+        "patterns": [
+            "Samsunda hangi golf sahaları bulunur?",
+            "samsunda gol sahası var mı",
+            "samsunda nerede golf sahası var",
+            "samsunda golf yapılır mı"
+        ],
+        "responses": [
+            "Samsun'da golf sahaları arasında Samsun Golf Sahası ve Amisos Golf Sahası gibi tesisler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "TuristikAktivite",
+        "patterns": [
+            "Samsunda hangi turistik aktiviteler yapılabilir?",
+            "samsunda hangi turistik aktivite var ",
+            "samsundaki turistik aktiviteler nelerdir"
+        ],
+        "responses": [
+            "Samsun'da turistik aktiviteler arasında şehir turu, tekne gezisi, yamaç paraşütü, yelken sporları ve doğa yürüyüşleri gibi etkinlikler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "YöreselLezzet",
+        "patterns": [
+            "Samsunda hangi yöresel lezzetler tadılabilir?",
+            "samsunun yöresel lezzeti var mı",
+            "samsundaki yöresel lezzetler nelerdir"
+        ],
+        "responses": [
+            "Samsun'da tadılacak yöresel lezzetler arasında çakırdiken kebabı, mısır ekmeği, hamsi pilavı, mısır çorbası ve lahana sarması gibi yemekler bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "DersEkleSil",
+        "patterns": [
+            "Ders ekleme/çıkarma nedir? Bu işlemi nasıl yapmalıyım?",
+            "Ders ekle sil ne demek",
+            "ders ekleme çıkarma ne zaman yapılır"
+        ],
+        "responses": [
+            "Seçmiş olduğunuz derslerden açılmayan seçmeli ders olduğunda veya değiştirmek istediğiniz dersler için Akademik Takvimde belirtilen süreler içerisinde danışmanınızla irtibata geçerek yapabileceğiniz işlemdir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "DanışmanHakkı",
+        "patterns": [
+            "Danışmanın kayıt olmak istediğim derslerde değişiklik yapma hakkı var mıdır?",
+            "danışmanımın ders seçimlerinde ders ekle sil yapma hakkı var mı",
+            "danışmanım istediği gibi ders ekleyip silebilir mi"
+        ],
+        "responses": [
+            "Evet. Ondokuz Mayıs Üniversitesi Eğitim Öğretim ve Sınav Yönetmeliğinin 10. Maddesi 3. Fıkrası kapsamında danışman bu hakkını kullanabilir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Kontenjan",
+        "patterns": [
+            "Ders kayıtında kontenjan dolu diyor",
+            "Derslerde kontenjan dolu uyarısı veriyor, dersi seçemiyorum, ne yapmalıyım?",
+            "kontenjan dolu uyarısında ne yapmalıyım"
+        ],
+        "responses": [
+            "Öncelikle alabileceğiniz diğer seçmeli veya grup dersini almaya çalışmalısınız. Tüm kontenjanlar doluysa danışmanınızla iletişime geçmeniz gerekmektedir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "AKTS",
+        "patterns": [
+            "dönemlik AKTS sınırı kaçtır",
+            "Bir dönemde kaç AKTS'lik ders alma hakkım bulunmaktadır?",
+            "kaç AKTS alabilirim"
+        ],
+        "responses": [
+            "Bir dönemde 30 AKTS'lik ders alma hakkınız bulunmaktadır. Fakat başarı durumunuza göre ilave olarak 6, 10, 12 veya 15 AKTS oranlarında fazla ders alabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "DevamZorunluluğu",
+        "patterns": [
+            "Daha önce başarısız olduğum derslere devam zorunluluğum var mı?",
+            "kaldığım derste devam zorunluluğum var mı",
+            "dersten ff ile kaldıysam devam zorunluluğum var mı",
+            "devamsızlıktan kaldığım derste devam zorunluluğum var mı"
+        ],
+        "responses": [
+            "Tekrar alınan derslerin devam koşulu yerine getirilmişse, yeniden devam koşulu aranmaz. Fakat başarısız olduğunuz seçmeli ders yerine yeni seçtiğiniz seçmeli derse devam şartınız doğacaktır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "SeçmeliDers",
+        "patterns": [
+            "Seçmeli dersten başarısız oldum. Yerine başka seçmeli ders seçebilir miyim?",
+            "kaldığım seçmeli dersi sonraki dönem değiştirebilir miyim",
+            "Seçmeli dersimi başka seçmeli ders ile değitirebilir miyim"
+        ],
+        "responses": [
+            "Evet. UBS’den ders seçimi yaparken almak istediğiniz seçmeli dersi seçip yerine değiştirmek istediğiniz diğer seçmeli dersin yerine alıyorum işlemini yapmanız gerekmektedir. Yerine ders seçme işlemini yapmazsanız bir sonraki dönemde sorun yaşayabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "ÜsttenDers",
+        "patterns": [
+            "Hangi durumda üst sınıftan ders alabilirim?",
+            "Üstten ders nasıl alabilirim?",
+            "Üstten ders alabilme koşulu nedir?",
+            "Üstten ders almak için neler gerekir",
+            "Üstten ders almak için ortalama kaç olmalıdır?",
+            "Üstten ders almak için ne yapabilirim"
+        ],
+        "responses": [
+            "Kayıt olduğu yükseköğretim programında önceki yarıyıllarda alması gereken derslerin tümünden başarılı olan öğrenciler, son yarıyıldaki derslerinin ağırlıklı başarı ortalaması 80 ve üzerinde ise, danışmanının önerisi ve bölüm/program başkanının onayı ile ders seçimi aşamasında bir üst sınıftan ders alabilir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "SamsunTarih",
+        "patterns": [
+            "Samsunun tarihi hakkında bilgi verir misin?",
+            "samsunun tarihi nedir",
+            "samsunun tarihi nerelere uzanır"
+        ],
+        "responses": [
+            "Samsun'un tarihi MÖ 7. yüzyıla kadar uzanmaktadır, antik adı Amisos'tur. Samsun'a yerleşen ilk topluluk MÖ 5000-3500 arasında buraya gelen Kaşkalardır. Daha sonra Pers, Makedonya, Pontus, Roma, Bizans, Ceneviz, Osmanlı egemenliği gören Samsun şu anda Türkiye Cumhuriyeti sınırlarında bir şehirdir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Bölge",
+        "patterns": [
+            "Samsun hangi bölgededir?",
+            " samsun hangi bölgede yer alır"
+            
+        ],
+        "responses": [
+            "Samsun, Karadeniz Bölgesi'nde yer alır."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Nüfus",
+        "patterns": [
+            "Samsunun nüfusu kaçtır?",
+            "samsunda kaç kişi yaşıyo",
+            "samsunda toplam kaç kişi var"
+        ],
+        "responses": [
+            "2023 itibarıyla Samsun'un nüfusu yaklaşık 1.3 milyondur."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "SamsunUlaşım",
+        "patterns": [
+            "Samsuna nasıl gidilir?",
+            "samsuna ne ile gidebilirim",
+            "samsunda hangi ulaşım araçları kullanılır"
+        ],
+        "responses": [
+            "Samsun'a ulaşım için havayolu, karayolu, demiryolu ve denizyolu araçlarını kullanabilirsiniz."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "PlakaKodu",
+        "patterns": [
+            "Samsunun plaka kodu nedir?",
+            "samsun plaka kodu kaçtır",
+            "plaka kodu"
+        ],
+        "responses": [
+            "Samsun'un plaka kodu 55'tir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "TelefonAlan",
+        "patterns": [
+            "Samsunun telefon alan kodu nedir?",
+            "samsun alan kodu nedir",
+            "alan kodu"
+        ],
+        "responses": [
+            "Samsun'un telefon alan kodu 362'dir."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "ÖğrenciKenti",
+        "patterns": [
+            "Samsun bir öğrenci kenti midir?",
+            "samsun öğrenci mekanı mı",
+            "samsun öğrenciler için iyi mi"
+        ],
+        "responses": [
+            "Evet, Samsun önemli bir öğrenci kentidir. İçinde iki önemli üniversite var."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "SamsunUni",
+        "patterns": [
+            "Samsun'da hangi üniversiteler bulunmaktadır?",
+            "samsunda kaç üniversite var",
+            "samsundaki üniversiteler neler"
+        ],
+        "responses": [
+            "Samsun'da Ondokuz Mayıs Üniversitesi ve Bafra Üniversitesi bulunmaktadır."
+        ],
+        "context_set": ""
+    },
+    {
+      "tag": "vakit_geçirme",
+      "patterns": [
+        "tek başına vakit geçirme",
+        "civar vakit geçirme",
+        "yalnızım vakit geçirmek istiyorum ",
+        "okulda nerelerde vakit geçirebilirim ",
+        "okulda yapılabilecek faliyetler",
+        "okul faliyetleri",
+        "okulda nerede vakit geçirebilirim",
+        "okulda nasıl vakit geçirebilirim",
+        "okul civarında neler yapabilirim",
+        "nasıl vakit geçirebilirm"
+      ],
+      "responses": [
+        "Kampüs civarında sahil yürüyüşleri, kafeler ve sosyal etkinlikler yapılabilir."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fakülte",
+      "patterns": [
+        "ünide kaç fakülte bulunuyor ",
+        "üniversitemizde kaç fakülte var",
+        "üniversitede kaç adet fakülte var",
+        "fakülte sayısı kaç",
+        "kaç adet fakülte var",
+        "fakülte sayısı kaçtır"
+      ],
+      "responses": [
+        "19 Mayıs Üniversitesi'nde toplam 20 fakülte bulunmaktadır."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bölüm",
+      "patterns": [
+        "üniveristede kaç bölüm var",
+        "bölüm sayısı",
+        "kaç tane bölüm var",
+        "bölüm adeti",
+        "bölüm sayısını öğrenebilir miyim",
+        "bölüm sayısı kaçtır"
+      ],
+      "responses": [
+        " Üniversitede çeşitli fakültelere bağlı olarak toplamda 100'den fazla bölüm bulunmaktadır."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sıralama",
+      "patterns": [
+        " omü en yüksek sıralı bölüm",
+        "omü puanı en yüksek",
+        "omü sıralaması en yüksek",
+        "sıralaması en iyi bölüm",
+        "en iyi bölüm",
+        "en yüksek bölüm",
+        "sıralaması en yüksek olan bölüm nedir",
+        "puanları en yüksek bölüm hangisidir"
+      ],
+      "responses": [
+        "Üniversitede sıralaması en yüksek bölüm genellikle Tıp Fakültesi veya Mühendislik Fakültesi bölümleridir."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "çan_sistem",
+      "patterns": [
+        "çan sistemi nasıl çalışır",
+        "omü çan sistemi nedir",
+        "ortalamam 55 çan sisteminden geçebilir miyim",
+        "çan sistemi omüde var mı",
+        "okulda çan sistemi var mı"
+      ],
+      "responses": [
+        "Okulumuzda çan sistemi uygulanmaktadır. Çan sistemi, sınıf ortalamasına göre öğrencilerin notlarının belirlenmesi sistemidir, detaylar yönetmeliklerde belirtilmiştir."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mühendislik_detay",
+      "patterns": [
+        "Mühendislik fakültesinde kaç tane bölüm var?",
+        "Mühendislik fakültesinde kaç adet derslik var?",
+        "Mühendislik fakültesinde kaç amfi var?",
+        "Bilgisayar mühendisliği bölümünde kaç hoca var?"
+      ],
+      "responses": [
+        "Mühendislik fakültesinde 10 farklı bölüm bulunmaktadır, Mühendislik fakültesinde toplamda 50'den fazla derslik bulunmaktadır,Mühendislik fakültesinde 5 büyük amfi bulunmaktadır."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bölüm_başkan",
+      "patterns": [
+        "bilgisayar bölümü başkanı kimdir",
+        "bölüm başkanı kimdir",
+        "bilgisayar mühendisliği bölüm başkanı kimdir"
+      ],
+      "responses": [
+        "Bilgisayar mühendisliği başkanı Prof.Dr.Erdal Kılıç'tır."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "bil_müh_dersler",
+      "patterns": [
+        "hangi dersler var",
+        "bilgisayar mühendisliğinde hangi dersler vardır",
+        "mühendislik dersleri",
+        "mühendislikte hangi dersler var",
+        "Bilgisayar mühendisliği bölümünde hangi dedrsler işleniyor."
+      ],
+      "responses": [
+        "Bilgisayar Mühendisliği bölümünde temel programlama, veri yapıları, algoritmalar, yazılım mühendisliği gibi dersler bulunmaktadır."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hazırlık",
+      "patterns": [
+        "bilgisayar mühendisliği hazırlık var mı",
+        "ingilizce hazırlık",
+        "ingilizce hazırlık var mı ",
+        "bilgisayar mühendisliğinde ingilizce hazırlık var mı"
+      ],
+      "responses": [
+        "Evet, Bilgisayar Mühendisliği bölümünde İngilizce hazırlık eğitimi verilmektedir."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Harf_notları",
+      "patterns": [
+        "harf notları",
+        "harf notları nasıl belli oluyor",
+        "harf notları nasıldır",
+        "hangi notlar hangi harfe karşılık geliyor",
+        "hangi harf notları hangi nota geliyor"
+      ],
+      "responses": [
+        "Harf notları, öğrencinin ders içi performansı, sınav sonuçları ve çan eğrisi gibi kriterlere göre belirlenir. A: 90-100, B: 80-89, C: 70-79, D: 60-69, F: 0-59 (Detaylı not sistemi üniversite yönetmeliklerinde belirtilmiştir)."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "danışmanlık",
+      "patterns": [
+        "danışman hocam kim",
+        "danışman hocamı nasıl öğrenebilirim",
+        "danışman öğretmenimi nasıl öğrenebilirim",
+        "danışmanım kim"
+      ],
+      "responses": [
+        "Danışman hocanızı öğrenci bilgi sistemine giriş yaparak öğrenebilirsiniz. Danışman hocanızın iletişim bilgileri öğrenci bilgi sisteminde ve bölüm web sitesinde yer almaktadır"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "yemekhaneKimlik",
+      "patterns": [
+        "öğrenci kimlik kartım olmadan yemek yiyebilir miyim",
+        "öğrenci kartım yok napabilirim",
+        "öğrenci kartım yok yemek yiyebilir miyim",
+        "öğrenci kartımı kaybettim yemekhaneden yemek yiyebilir miyim"
+      ],
+      "responses": [
+        "Öğrenci kimlik kartınız olmadan geçici bir belge ile yemekhaneden faydalanabilirsiniz."
+      ],
+      "context_set": ""
+    },
+   
+    {
+      "tag": "yemekhane_saat",
+      "patterns": [
+        "yemekhane saati",
+        "yemek saat",
+        "yemekhanede öğle yemeği saati",
+        "yemekhanede sabah yemeği saati",
+        "yemekhanede kahvaltı saati",
+        "yemekhanede akşam yemeği saati kaç"
+      ],
+      "responses": [
+        "Yemekhane yemek saatleri sabah 7:00-9:00, öğle 12:00-14:00, akşam 18:00-20:00 arasıdır."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "yemekhane_ikinci_yemek",
+      "patterns": [
+        "yemekhane 2.yemeği yiyebilir miyim",
+        "yemekhanede ikinci yemeği yiyebilir miyim",
+        "yemekhanede 2 kez yemek yiyebilir miyim",
+        "yemekhanede iki kez yemek yiyebilir miyim",
+        "ikinci yemek için ekstra ücret ödenir mi"
+      ],
+      "responses": [
+        "İkinci kez yemek yemek için tekrar ücret ödemeniz gerekmektedir. İkinci yemek için ekstra ücret ödenir, güncel fiyatlar yemekhanede ilan edilir."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "yerleşke",
+      "patterns": [
+        "üniversitenin kaç yerleşkesi vardır",
+        "yerleşke sayısı kaçtır",
+        "ana yerleşkenin adı nedir",
+        "üniversitenin ana yerleşkesi",
+        "yerleşke",
+        "yerleşke sayısı"
+      ],
+      "responses": [
+        "19 Mayıs Üniversitesi'nin 3 ana yerleşkesi bulunmaktadır. Üniversitenin ana yerleşkesi Kurupelit Yerleşkesi'dir"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "rasgele",
+      "patterns": [
+        "Seni seviyorum",
+        "benimle evlenir misin",
+        "seninle bir gelecek düşünüyorum",
+        "bana bir şans verebilir misin",
+        "benim kız arkadaşım olur musun",
+        "sana aşık oldum",
+        "sana aşığım"
+      ],
+      "responses": [
+        "Ben böyle sorular için programlanmadım lütfen ihtiyacın olan bir soru sorar mısın."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "küfür",
+      "patterns": [
+        "mal",
+        "salak",
+        "gerizekalı",
+        "aptal",
+        "özürlü",
+        "beyinsiz",
+        "orospu"
+      ],
+      "responses": [
+        "Lütfen daha kibar olalım.",
+        "Küfür ve hakaretten hoşlanmıyorum kullanmazsan sevinirim."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "burs_finansal",
+      "patterns": [
+        "okulumuzun burs imkanları nelerdir",
+        "burs imkanları nedir",
+        "burs var mı ",
+        "bursa ihtiyaç",
+        "burs lazım"
+      ],
+      "responses": [
+        "Üniversite, başarı ve ihtiyaç bursları, yurt içi ve yurt dışı burs imkanları sunmaktadır."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "akademik_bilgiler",
+      "patterns": [
+        "lisans öğrencileri lisansüstü programlardan ders alabilir mi",
+        "lisans öğrencisiyim lisansüstü programlardan ders alabilir miyim"
+      ],
+      "responses": [
+        "Lisans öğrencileri belirli şartları sağladığında lisansüstü programlardan ders alabilirler, detaylı bilgi için bölüm danışmanınıza başvurabilirsiniz"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ders_devam",
+      "patterns": [
+        "devam zorunluluğu var mı",
+        "okulda derslere girme zorunluluğu var mı",
+        "derslere girmesem nolur",
+        "derslere girmezsem ne olur",
+        "öğretmenler devamsızlığa bakıyor mu",
+        "yoklama alınıyor mu"
+      ],
+      "responses": [
+        "Evet, derslere devam zorunluluğu bulunmaktadır. Devamsızlık oranları bölüm ve dersin öğretim üyesi tarafından belirlenir."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hazırlık_belge",
+      "patterns": [
+        " Hazırlık öğrencisiyim. Öğrenci Belgesi ve transkriptimi nereden alabilirim",
+        "Hazırlığı okuduğuma dair belge alabilir miyim? Nereden alabilirim?",
+        "hazırlık belgelerini nerden alabilirim"
+      ],
+      "responses": [
+        "Hazırlık öğrencileri öğrenci belgeleri ve transkriptlerini öğrenci işleri ofisinden alabilirler"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "yatay_geçiş_çift_anadal",
+      "patterns": [
+        "yatay geçiş şartları nelerdir",
+        "yatay geçiş yapmak için ortalama kaç olmalı",
+        "alttan dersim varken yatay geçiş yapabilir miyim",
+        "yatay geçiş yapabilir miyim"
+      ],
+      "responses": [
+        "Yatay geçiş şartları üniversitenin web sitesinde ve öğrenci işleri ofisinde belirtilmiştir.Yatay geçiş yapmak için genellikle en az 2.00 AGNO'ya sahip olmalısınız, ancak bu oran programdan programa değişebilir.Alttan dersiniz olsa bile yatay geçiş başvurusunda bulunabilirsiniz."
+      ],
+      "context_set": ""
+    }
+  ]
+}
